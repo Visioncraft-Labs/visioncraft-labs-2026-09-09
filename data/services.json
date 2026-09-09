@@ -1,0 +1,491 @@
+[
+  {
+    "slug": "branding",
+    "name": "Brand strategy & identity",
+    "category": "Brand",
+    "headline": "A clear position. An unmistakable presence.",
+    "description": "Brand strategy and identity systems for businesses ready to become easier to understand, recognize and choose.",
+    "problem": "When your offer has evolved but your identity has not, every presentation, website and campaign tells a slightly different story. We help define the idea behind the business and turn it into a consistent visual and verbal system.",
+    "capabilities": [
+      {
+        "title": "Positioning & messaging",
+        "body": "Clarify your audience, point of difference and value proposition. Define the messages that need to remain consistent as the business grows."
+      },
+      {
+        "title": "Visual identity",
+        "body": "Develop a coherent identity across logo usage, typography, color, imagery and composition. Existing brand equity is assessed before changes are proposed."
+      },
+      {
+        "title": "Brand systems & rollout",
+        "body": "Create guidelines and practical applications for digital, presentation and campaign use. The handover should help your team make better everyday decisions."
+      }
+    ],
+    "process": [
+      "Understand the business, audience and competitive context.",
+      "Define positioning and review creative territories.",
+      "Develop the selected identity across real applications.",
+      "Deliver editable assets, usage guidance and rollout priorities."
+    ],
+    "benefit": "An identity built as a system gives your business a recognizable presence across touchpoints. It also reduces the repeated design decisions that slow down internal teams.",
+    "technology": "Editable vector assets, presentation-ready files, digital color specifications and accessible typography guidance. Tools and handover formats are agreed to suit your team.",
+    "faqs": [
+      {
+        "q": "Can you work with our existing logo?",
+        "a": "Yes. We can build a stronger identity system around a protected logo, or assess a broader evolution where a redesign is appropriate."
+      },
+      {
+        "q": "Is a logo the same as a brand identity?",
+        "a": "A logo identifies the business. A brand identity includes the visual rules, messaging and applications that make the business recognizable in use."
+      },
+      {
+        "q": "What should we prepare?",
+        "a": "Bring your business objectives, current assets, audience information and examples of where the identity needs to work. A finished creative brief is not required."
+      }
+    ],
+    "projects": [
+      "karbon-kreds",
+      "pavilion"
+    ],
+    "related": [
+      "web-design",
+      "creative-content"
+    ],
+    "context": "branding",
+    "keyword": "branding agency Pakistan"
+  },
+  {
+    "slug": "web-design",
+    "name": "Web design",
+    "category": "Digital",
+    "headline": "Make the first impression count. Make the next step clear.",
+    "description": "Distinctive website design that connects your brand, your audience and the action you want visitors to take.",
+    "problem": "A website can look polished and still leave people unsure what the business does. We design around the visitor’s decisions: what to understand first, what proof to explore and how to start a conversation.",
+    "capabilities": [
+      {
+        "title": "Website strategy",
+        "body": "Define page objectives, audience journeys and content priorities before layout begins. Map the structure around real questions and search intent."
+      },
+      {
+        "title": "Responsive art direction",
+        "body": "Create a coherent visual system across desktop, tablet and mobile. Typography, image choices and composition are considered together."
+      },
+      {
+        "title": "Conversion & interaction",
+        "body": "Make inquiry, calling and messaging straightforward. Add purposeful motion where it improves hierarchy, feedback or storytelling."
+      }
+    ],
+    "process": [
+      "Review the existing site, audience and business goals.",
+      "Agree the information architecture and core page direction.",
+      "Design responsive layouts and key interaction states.",
+      "Prepare development specifications and review implementation."
+    ],
+    "benefit": "The aim is a website that explains the offer clearly, earns attention through quality and reduces friction between interest and inquiry. Conversion measures should be agreed before launch.",
+    "technology": "Figma-compatible design deliverables, responsive design systems, interactive prototypes and accessible components. Development can be included in a connected engagement.",
+    "faqs": [
+      {
+        "q": "Do you also develop the website?",
+        "a": "Yes. Website design and development can be scoped together so the visual direction, content and engineering remain connected."
+      },
+      {
+        "q": "Can you redesign an existing website?",
+        "a": "Yes. We review existing content, URLs, assets and search visibility before planning the replacement and redirects."
+      },
+      {
+        "q": "Do you work with businesses in Pakistan?",
+        "a": "We can discuss projects for businesses in Pakistan and internationally. Scope, communication and handover are agreed around each engagement."
+      },
+      {
+        "q": "How is the price determined?",
+        "a": "Page count is only one factor. Content, design complexity, integrations, editing needs and launch support shape the estimate."
+      }
+    ],
+    "projects": [
+      "karbon-kreds",
+      "talon"
+    ],
+    "related": [
+      "web-development",
+      "ui-ux-design",
+      "seo"
+    ],
+    "context": "website",
+    "keyword": "web design agency Pakistan"
+  },
+  {
+    "slug": "web-development",
+    "name": "Web development",
+    "category": "Technology",
+    "headline": "Beautiful on the surface. Considered underneath.",
+    "description": "Website development that turns a strong design into a fast, accessible and maintainable digital experience.",
+    "problem": "Slow loading, fragile integrations and difficult editing can undermine a strong visual design. We plan the build around how the site will be used, hosted and maintained after handover.",
+    "capabilities": [
+      {
+        "title": "Frontend engineering",
+        "body": "Develop responsive interfaces with semantic structure, reusable components and deliberate loading behavior. Motion is progressive and respects reduced-motion preferences."
+      },
+      {
+        "title": "Content & integrations",
+        "body": "Connect structured content, forms and business tools where they are needed. Choose a CMS based on editorial requirements rather than habit."
+      },
+      {
+        "title": "Launch foundations",
+        "body": "Plan hosting, redirects, metadata, analytics configuration and operational handover. Test the important journeys before release."
+      }
+    ],
+    "process": [
+      "Audit requirements, design files and integration dependencies.",
+      "Select the simplest stack that supports the intended experience.",
+      "Implement, test and refine the responsive build.",
+      "Deploy through a reviewable workflow and document maintenance."
+    ],
+    "benefit": "A maintainable foundation helps your team update content, diagnose issues and extend the site without rebuilding it. Performance and accessibility remain part of implementation, not final decoration.",
+    "technology": "React, Next.js, TypeScript and WordPress are considered according to the project. Netlify-compatible builds, Git-based review and structured content are available; hosting is agreed in the scope.",
+    "faqs": [
+      {
+        "q": "Can you use our preferred hosting provider?",
+        "a": "We assess the provider against the chosen framework and required integrations before confirming the architecture."
+      },
+      {
+        "q": "Will we be able to change images and text?",
+        "a": "Yes. Editing requirements are defined at the start, using structured content files or a suitable content-management system."
+      },
+      {
+        "q": "Can you work from an existing design?",
+        "a": "Yes. We review responsive layouts, interaction states and missing specifications before development begins."
+      }
+    ],
+    "projects": [
+      "karbon-kreds",
+      "address12"
+    ],
+    "related": [
+      "web-design",
+      "custom-software-development",
+      "seo"
+    ],
+    "context": "website",
+    "keyword": "website development company Pakistan"
+  },
+  {
+    "slug": "ui-ux-design",
+    "name": "UX/UI & digital products",
+    "category": "Digital",
+    "headline": "Less friction. More possibility.",
+    "description": "Product strategy and interface design that make complex digital products easier to understand and use.",
+    "problem": "When a product grows feature by feature, its interface can become a collection of disconnected screens. We bring the journeys, information and interaction patterns back into one coherent experience.",
+    "capabilities": [
+      {
+        "title": "Journey & workflow design",
+        "body": "Map the people, decisions and handoffs behind the interface. Prioritize the tasks that matter most to the user and the business."
+      },
+      {
+        "title": "Prototypes & validation",
+        "body": "Explore structures and interaction patterns before expensive implementation. Use prototypes to uncover ambiguity and gather focused feedback."
+      },
+      {
+        "title": "Interface systems",
+        "body": "Design reusable components with clear states for loading, errors, empty data and successful actions. Document behavior across input methods and screen sizes."
+      }
+    ],
+    "process": [
+      "Understand users, business rules and the current workflow.",
+      "Map journeys and prioritize the product structure.",
+      "Prototype the core tasks and refine through review.",
+      "Deliver the interface system and support engineering handover."
+    ],
+    "benefit": "A clear product experience can reduce unnecessary steps and make the next action easier to understand. Usability outcomes should be evaluated through agreed tasks and user feedback.",
+    "technology": "Research synthesis, wireframes, interactive prototypes and component specifications. Framework and design-system choices are coordinated with the engineering team.",
+    "faqs": [
+      {
+        "q": "Can you improve only one part of a product?",
+        "a": "Yes. A focused engagement can address a critical flow such as onboarding, booking, checkout or an operational dashboard."
+      },
+      {
+        "q": "Do you design mobile experiences?",
+        "a": "Yes. Touch behavior, hierarchy and content order are designed for smaller screens instead of simply shrinking desktop layouts."
+      },
+      {
+        "q": "What is included in handover?",
+        "a": "The agreed scope can include layouts, prototypes, component states, interaction rules and implementation review."
+      }
+    ],
+    "projects": [
+      "address12",
+      "pavilion"
+    ],
+    "related": [
+      "custom-software-development",
+      "web-design"
+    ],
+    "context": "software",
+    "keyword": "UI UX design agency Pakistan"
+  },
+  {
+    "slug": "custom-software-development",
+    "name": "Custom software development",
+    "category": "Technology",
+    "headline": "Software shaped around the way you work.",
+    "description": "Custom applications and operational tools for businesses whose workflows need more than disconnected spreadsheets and generic systems.",
+    "problem": "Work becomes harder when information has to be copied between tools, exceptions live in people’s heads and reports depend on manual reconciliation. A custom system starts by understanding those operational realities.",
+    "capabilities": [
+      {
+        "title": "Workflow & product definition",
+        "body": "Map roles, permissions, records and business rules. Identify what should be automated and what should remain a deliberate human decision."
+      },
+      {
+        "title": "Application engineering",
+        "body": "Build connected interfaces and data flows for the agreed use cases. Account for validation, access, reporting and failure recovery."
+      },
+      {
+        "title": "Deployment & evolution",
+        "body": "Define installation, backups, maintenance and support responsibilities. Plan releases so improvements can be reviewed and rolled back where supported."
+      }
+    ],
+    "process": [
+      "Document the operational problem and existing tools.",
+      "Define the smallest useful release and its acceptance criteria.",
+      "Build in reviewable increments with realistic test cases.",
+      "Validate deployment, train users and plan subsequent improvements."
+    ],
+    "benefit": "The goal is a better fit between the system and the business process. Custom development is most useful when the distinctive workflow justifies the cost and responsibility of maintaining software.",
+    "technology": "Web applications, local operational systems, databases, APIs and integrations are selected against deployment and data requirements. Architecture follows the use case.",
+    "faqs": [
+      {
+        "q": "Should we build custom software or use SaaS?",
+        "a": "Start with the requirements. A proven SaaS product may be the better choice when it already fits. Custom software is worth considering when the workflow or integration needs are materially different."
+      },
+      {
+        "q": "Can you improve an existing application?",
+        "a": "Yes, subject to access and an initial assessment of the codebase, data, dependencies and operational risks."
+      },
+      {
+        "q": "Can software run locally?",
+        "a": "Where the requirements support it, local deployment can be scoped. Installation, backups, updates and access still need an explicit plan."
+      }
+    ],
+    "projects": [
+      "address12"
+    ],
+    "related": [
+      "ui-ux-design",
+      "ai-automation",
+      "web-development"
+    ],
+    "context": "software",
+    "keyword": "custom software development Pakistan"
+  },
+  {
+    "slug": "ai-automation",
+    "name": "AI & automation",
+    "category": "Intelligence",
+    "headline": "Make intelligence useful.",
+    "description": "Practical automation and AI-assisted workflows focused on a defined business task, with clear boundaries and human oversight.",
+    "problem": "Adding AI to a workflow does not automatically make it better. The useful starting point is a repeated task, a measurable constraint and a clear definition of an acceptable result.",
+    "capabilities": [
+      {
+        "title": "Workflow assessment",
+        "body": "Identify repeated work, information bottlenecks and suitable integration points. Separate deterministic rules from tasks that may benefit from AI."
+      },
+      {
+        "title": "Connected automation",
+        "body": "Design trigger, action and review steps across existing tools. Plan permissions, retries and exception handling before automation runs unattended."
+      },
+      {
+        "title": "AI-assisted systems",
+        "body": "Prototype content, classification or knowledge workflows using approved data. Define review steps, evaluation examples and fallback behavior."
+      }
+    ],
+    "process": [
+      "Choose one practical use case and establish its current workflow.",
+      "Define inputs, outputs, safeguards and evaluation criteria.",
+      "Prototype with representative examples and human review.",
+      "Integrate, monitor and improve within the agreed scope."
+    ],
+    "benefit": "A focused automation can reduce repetitive handling and improve consistency. Any time saving or accuracy claim needs to be measured against the actual workflow, not assumed.",
+    "technology": "APIs, workflow tools, model integrations and structured data pipelines are considered as needed. Sensitive data, vendor terms and human approval points inform tool selection.",
+    "faqs": [
+      {
+        "q": "Does every automation need AI?",
+        "a": "No. Rules and standard integrations are often simpler, more predictable and easier to maintain. We use AI only where it adds a clear benefit."
+      },
+      {
+        "q": "Will AI act without human approval?",
+        "a": "Approval boundaries are agreed by use case. High-impact actions should have appropriate review, logging and recovery controls."
+      },
+      {
+        "q": "Can you estimate savings before a pilot?",
+        "a": "We can define a baseline and evaluation plan, but reliable savings depend on real testing and adoption."
+      }
+    ],
+    "projects": [
+      "address12"
+    ],
+    "related": [
+      "custom-software-development",
+      "creative-content"
+    ],
+    "context": "software",
+    "keyword": "AI automation agency"
+  },
+  {
+    "slug": "creative-content",
+    "name": "Creative content",
+    "category": "Content",
+    "headline": "Give the brand something worth saying. And showing.",
+    "description": "Art direction, visual production and content systems that connect the brand idea to its everyday expression.",
+    "problem": "A business can have a strong identity and still struggle to create consistent content. We establish an editorial and visual direction that works across campaigns, websites and ongoing communication.",
+    "capabilities": [
+      {
+        "title": "Art direction",
+        "body": "Define the visual world, references and composition rules that suit the business. Make imagery and written messaging reinforce the same idea."
+      },
+      {
+        "title": "Visual production",
+        "body": "Develop campaign and website assets using suitable production methods. Distinguish original photography, retouching and AI-assisted creative work clearly."
+      },
+      {
+        "title": "Content systems",
+        "body": "Create repeatable formats and guidance so the team can extend the direction without making every post or page from scratch."
+      }
+    ],
+    "process": [
+      "Define the audience, channels and communication objective.",
+      "Develop the creative direction and production plan.",
+      "Create, review and refine the agreed assets.",
+      "Deliver channel-ready files and practical usage guidance."
+    ],
+    "benefit": "A consistent content system helps each new piece of communication feel connected to the brand. The objective is useful recognition, clarity and a stronger body of work.",
+    "technology": "Photography, editing, layout and selected generative tools are used according to the brief. Source materials, rights and export formats are agreed before delivery.",
+    "faqs": [
+      {
+        "q": "Do you use AI in creative production?",
+        "a": "AI-assisted methods can be part of the process when appropriate. They should not be used to misrepresent real products, people, facilities or results."
+      },
+      {
+        "q": "Can you work with our existing photography?",
+        "a": "Yes. We can review the existing library and define how it should be edited, arranged and supplemented."
+      },
+      {
+        "q": "Do you provide editable files?",
+        "a": "Editable handover formats and any licensed dependencies are specified in the project scope."
+      }
+    ],
+    "projects": [
+      "talon",
+      "pavilion"
+    ],
+    "related": [
+      "branding",
+      "product-photography"
+    ],
+    "context": "general",
+    "keyword": "creative content studio"
+  },
+  {
+    "slug": "product-photography",
+    "name": "Product photography",
+    "category": "Content",
+    "headline": "Show the details that make the difference.",
+    "description": "Product imagery and art direction for brands that need a consistent, considered visual presence across commerce and communication.",
+    "problem": "Inconsistent light, color, scale and framing can make an otherwise strong product range feel fragmented. We define the image system around the way the products need to be understood and compared.",
+    "capabilities": [
+      {
+        "title": "Shoot direction",
+        "body": "Plan the image list, styling, backgrounds and intended uses before production. Align the visual language with the product and brand."
+      },
+      {
+        "title": "Product presentation",
+        "body": "Create clear product views and more expressive campaign imagery as separate, purposeful assets. Accurate representation stays central to commerce imagery."
+      },
+      {
+        "title": "Retouching & delivery",
+        "body": "Refine lighting, color and surface distractions within the agreed brief. Deliver consistent crops and sizes for website, marketplace and campaign use."
+      }
+    ],
+    "process": [
+      "Review the products, references and required channels.",
+      "Agree the shot list, styling and production logistics.",
+      "Capture or develop the agreed imagery and review selects.",
+      "Retouch and export the approved files with clear naming."
+    ],
+    "benefit": "A coherent image library gives your brand a consistent presence and helps customers understand the product. Any transformation example must show the same product and have a traceable source.",
+    "technology": "Production and editing methods depend on the brief. Photography, retouching and AI-assisted concepts are identified separately so clients know what they are approving.",
+    "faqs": [
+      {
+        "q": "Can you photograph products in Pakistan?",
+        "a": "Production location, product handling and logistics are confirmed during scoping. Contact us with your product type, quantity and required usage."
+      },
+      {
+        "q": "Can you enhance existing images?",
+        "a": "Yes, where the source quality supports the result. We review a sample before confirming the editing approach."
+      },
+      {
+        "q": "Will colors and details remain accurate?",
+        "a": "Accuracy requirements are agreed at the start. Product imagery intended for commerce should not invent features or materially misrepresent the item."
+      }
+    ],
+    "projects": [
+      "talon"
+    ],
+    "related": [
+      "creative-content",
+      "branding"
+    ],
+    "context": "general",
+    "keyword": "product photography Pakistan"
+  },
+  {
+    "slug": "seo",
+    "name": "SEO & growth",
+    "category": "Growth",
+    "headline": "Make the right business easier to find.",
+    "description": "Technical SEO, content architecture and conversion improvements built around relevant search intent and useful customer journeys.",
+    "problem": "Search visibility suffers when pages compete with one another, content does not answer the query or technical issues prevent discovery. We bring those layers into one prioritized improvement plan.",
+    "capabilities": [
+      {
+        "title": "Technical foundations",
+        "body": "Review crawlability, indexation, metadata, canonicals, redirects and performance. Fix issues according to their likely business impact."
+      },
+      {
+        "title": "Search & content strategy",
+        "body": "Map topics to pages and identify the questions useful content should answer. Avoid thin location pages and repetitive keyword-led writing."
+      },
+      {
+        "title": "Measurement & conversion",
+        "body": "Connect search visibility with the actions that matter: inquiry, calls and project conversations. Define tracking without collecting unnecessary personal information."
+      }
+    ],
+    "process": [
+      "Review the site and available search and analytics data.",
+      "Map intent, identify technical issues and prioritize opportunities.",
+      "Implement the agreed content and technical improvements.",
+      "Review performance over time and refine the next priorities."
+    ],
+    "benefit": "The objective is relevant discovery and clearer paths from search to action. Ranking, traffic and lead outcomes depend on competition, execution and time; they are never guaranteed.",
+    "technology": "Google Search Console, analytics and crawl diagnostics can inform the work once access is available. Structured data is used only for accurate, visible content.",
+    "faqs": [
+      {
+        "q": "Can you guarantee first-page rankings?",
+        "a": "No. Responsible SEO work can improve the foundations and relevance of a website, but rankings depend on factors outside any studio’s control."
+      },
+      {
+        "q": "Is SEO included in a website build?",
+        "a": "Technical foundations can be included. Ongoing research, content production and performance review are separate scope decisions."
+      },
+      {
+        "q": "Do you support local SEO?",
+        "a": "Yes, when the business information and service relevance are genuine. We do not invent offices or create duplicate location pages."
+      }
+    ],
+    "projects": [
+      "karbon-kreds"
+    ],
+    "related": [
+      "web-design",
+      "web-development"
+    ],
+    "context": "website",
+    "keyword": "SEO agency Pakistan"
+  }
+]

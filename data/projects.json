@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "karbon-kreds",
+    "name": "Karbon Kreds",
+    "industry": "Climate technology",
+    "headline": "Building the digital infrastructure for Canada\u2019s carbon economy.",
+    "summary": "Carbon infrastructure & digital platform",
+    "services": [
+      "Brand strategy",
+      "UX/UI",
+      "Web development",
+      "SEO"
+    ],
+    "featured": true,
+    "featuredOrder": 1,
+    "theme": "climate",
+    "gallery": [],
+    "status": "Website & brand direction",
+    "challenge": "Make a complex carbon-market proposition easier to understand, navigate and act on.",
+    "strategy": "Organize the Canadian carbon-market proposition around four pathways: buy credits, sell credits, develop a project and explore investment. Give each route a clear next step and explain market context in plain language.",
+    "approach": "The live website combines responsive page design, an interactive Earth, company and team pages, market information and a contact journey. A map introduces representative activity regions without presenting them as verified live transactions.",
+    "delivery": "Website design and development, brand direction, deployment and search setup. No commercial uplift or market transaction figures are claimed.",
+    "credits": "VisionCraft Labs \u2014 design and website development.",
+    "external": "https://karbonkreds.com/",
+    "mediaId": "karbonkreds-website.jpg"
+  },
+  {
+    "slug": "address12",
+    "name": "Address12",
+    "industry": "Hospitality",
+    "headline": "The details of hospitality. Connected.",
+    "summary": "Hospitality operating system",
+    "services": [
+      "Product strategy",
+      "UX/UI",
+      "Software engineering",
+      "Automation"
+    ],
+    "featured": true,
+    "featuredOrder": 2,
+    "theme": "hospitality",
+    "gallery": [],
+    "status": "Proprietary hospitality software",
+    "challenge": "Bring reservations, guest records, billing, documents and day-to-day property administration into one coherent system.",
+    "strategy": "Start with the operator\u2019s workflow: know what is available, capture a booking, prepare the invoice and keep the guest record connected.",
+    "approach": "The application source connects reservations and rates, guest records, invoices, expenses, payroll, communications and reporting. A Windows service supports the web interface. The dashboard shown here is rendered from the actual 10.3.2 components using a demonstration dataset.",
+    "delivery": "A proprietary hospitality management application, developed through operator feedback and ongoing refinement. Demonstrations can be arranged to discuss the workflows relevant to your property.",
+    "credits": "VisionCraft Labs \u2014 proprietary software and product design.",
+    "mediaId": "address12-dashboard.jpg"
+  },
+  {
+    "slug": "pavilion",
+    "name": "Pavilion",
+    "industry": "Sports technology",
+    "headline": "A sharper perspective on every match.",
+    "summary": "AI sports intelligence",
+    "services": [
+      "Brand strategy",
+      "Digital experience",
+      "Content systems"
+    ],
+    "featured": true,
+    "featuredOrder": 3,
+    "theme": "sports",
+    "gallery": [],
+    "status": "Brand & content direction",
+    "challenge": "Give a sports-intelligence proposition a clear, connected visual language across brand and communication.",
+    "strategy": "Connect the competitive energy of sport with an understandable product story for players, coaches and clubs.",
+    "approach": "Brand strategy, product messaging and visual explorations were brought into a coordinated content direction. Social launch work connected the identity to clear calls to action.",
+    "delivery": "Brand strategy and creative content development. Product-interface imagery shown in the brand board represents visual exploration, not verified performance results.",
+    "credits": "VisionCraft Labs \u2014 brand and content direction.",
+    "mediaId": "pavilion.webp"
+  },
+  {
+    "slug": "talon",
+    "name": "Talon",
+    "industry": "Manufacturing",
+    "headline": "Making the craft behind the product visible.",
+    "summary": "Manufacturing reimagined",
+    "services": [
+      "Digital strategy",
+      "Web design",
+      "Photography",
+      "Content"
+    ],
+    "featured": true,
+    "featuredOrder": 4,
+    "theme": "manufacturing",
+    "gallery": [],
+    "status": "Digital & visual direction",
+    "challenge": "Translate a manufacturing business into a focused digital story about production, quality and the people behind the product.",
+    "strategy": "Build a visual narrative around the making process. Give each part of the website a clear role in explaining the business.",
+    "approach": "The creative work covers website imagery, manufacturing-led visual direction and content for the company story, quality assurance and future vision.",
+    "delivery": "Digital content and creative visual development. Production credentials, certifications and capacity figures are not asserted here.",
+    "credits": "VisionCraft Labs \u2014 creative direction and digital content.",
+    "mediaId": "talon.webp"
+  }
+]

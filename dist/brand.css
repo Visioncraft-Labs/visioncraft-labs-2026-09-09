@@ -1,0 +1,9 @@
+/* Official artwork is displayed unchanged; its transparent margins sit outside the mark window. */
+.logo{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;flex-shrink:0;}
+.logo .official-mark{position:relative;display:block;width:44px;height:48px;overflow:hidden;flex-shrink:0;background:none;}
+.official-mark img{position:absolute;width:154px;max-width:none;height:auto;left:50%;top:50%;transform:translate(-50%,-51%);}
+.logo .brand-name{color:var(--text);background:none;-webkit-text-fill-color:currentColor;}
+.logo .brand-name>span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;}
+.social-row{flex-wrap:wrap;}
+.logo:focus-visible,.footer-col a:focus-visible,.social-row a:focus-visible{outline:2px solid var(--cyan);outline-offset:5px;}
+@media(max-width:480px){nav{gap:12px}.logo{font-size:15px;gap:7px}.nav-cta{padding:11px 13px;font-size:12px}.logo .official-mark{width:35px;height:40px}.official-mark img{width:126px}}

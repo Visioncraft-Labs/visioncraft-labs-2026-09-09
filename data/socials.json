@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/visioncraft_labs/",
+    "icon": "instagram"
+  },
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/people/Visioncraft-Labs/61577453503470/",
+    "icon": "facebook"
+  },
+  {
+    "name": "X",
+    "url": "https://x.com/VisioncraftLabs",
+    "icon": "x"
+  },
+  {
+    "name": "TikTok",
+    "url": "https://www.tiktok.com/@visioncraftlabs",
+    "icon": "tiktok"
+  },
+  {
+    "name": "Behance",
+    "url": "https://www.behance.net/rayanfaisal1",
+    "icon": "behance"
+  }
+]

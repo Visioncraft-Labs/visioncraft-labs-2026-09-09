@@ -1,0 +1,169 @@
+{
+  "items": [
+    {
+      "id": "pavilion.webp",
+      "label": "Pavilion",
+      "src": "images/pavilion.webp",
+      "alt": "Pavilion sports intelligence brand exploration board",
+      "caption": "Brand exploration from the project presentation. Interface concepts are exploratory.",
+      "poster": "",
+      "fit": "contain",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "karbonkreds-website.jpg",
+      "label": "Karbonkreds Website",
+      "src": "images/karbonkreds-website.jpg",
+      "alt": "KarbonKreds live website: Canadian carbon-market platform",
+      "caption": "Captured from the live KarbonKreds website.",
+      "poster": "",
+      "fit": "contain",
+      "width": 1348,
+      "height": 926
+    },
+    {
+      "id": "address12-dashboard.jpg",
+      "label": "Address12 Dashboard",
+      "src": "images/address12-dashboard.jpg",
+      "alt": "Address12 hospitality software dashboard with demonstration data",
+      "caption": "Actual Address12 10.3.2 interface, rendered with demonstration data. Figures are illustrative; no guest information is shown.",
+      "poster": "",
+      "fit": "contain",
+      "width": 1363,
+      "height": 936
+    },
+    {
+      "id": "talon.webp",
+      "label": "Talon",
+      "src": "images/talon.webp",
+      "alt": "Talon Group manufacturing creative visual",
+      "caption": "AI-assisted campaign visual for Talon; not documentary factory photography.",
+      "poster": "",
+      "fit": "contain",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "skincare-jar-orange-glow.jpg",
+      "label": "Skincare Jar Orange Glow",
+      "src": "images/skincare-jar-orange-glow.jpg",
+      "alt": "Skincare jar inside a glowing orange glass ring, AI-assisted product composition",
+      "caption": "AI-assisted creative direction",
+      "poster": "",
+      "fit": "contain",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "id": "vitamin-box-green-dramatic.jpg",
+      "label": "Vitamin Box Green Dramatic",
+      "src": "images/vitamin-box-green-dramatic.jpg",
+      "alt": "Vitamin supplement box packaging floating in dramatic green light",
+      "caption": "Wellness \u2014 dramatic packaging shot",
+      "poster": "",
+      "fit": "contain",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "id": "lipstick-pink-vibes.jpg",
+      "label": "Lipstick Pink Vibes",
+      "src": "images/lipstick-pink-vibes.jpg",
+      "alt": "Lipstick product visual with a painted monochrome lips concept",
+      "caption": "Beauty \u2014 concept campaign art",
+      "poster": "",
+      "fit": "contain",
+      "width": 688,
+      "height": 1024
+    },
+    {
+      "id": "coffee-iv-bag.jpg",
+      "label": "Coffee Iv Bag",
+      "src": "images/coffee-iv-bag.jpg",
+      "alt": "Conceptual IV bag filled with coffee, minimalist packaging label",
+      "caption": "Food & beverage \u2014 concept art",
+      "poster": "",
+      "fit": "contain",
+      "width": 816,
+      "height": 1456
+    },
+    {
+      "id": "coffee-art-aesthetic.jpg",
+      "label": "Coffee Art Aesthetic",
+      "src": "images/coffee-art-aesthetic.jpg",
+      "alt": "Minimalist coffee cup still life with dramatic shadow composition",
+      "caption": "Lifestyle \u2014 minimalist still life",
+      "poster": "",
+      "fit": "contain",
+      "width": 736,
+      "height": 1025
+    },
+    {
+      "id": "cake_slice_poster.jpg",
+      "label": "Cake Slice Poster",
+      "src": "images/cake_slice_poster.jpg",
+      "alt": "Slice of matcha and chocolate cake with white flowers, creative food composition",
+      "caption": "Food \u2014 studio plating shot",
+      "poster": "",
+      "fit": "contain",
+      "width": 464,
+      "height": 832
+    },
+    {
+      "id": "candle-oaalses-stone.jpg",
+      "label": "Candle Oaalses Stone",
+      "src": "images/candle-oaalses-stone.jpg",
+      "alt": "Lit oaalses candle staged on a natural stone against a warm sandstone backdrop",
+      "caption": "Home & fragrance \u2014 natural stone styling",
+      "poster": "",
+      "fit": "contain",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "id": "coffee-process.mp4",
+      "label": "Coffee Process",
+      "src": "images/coffee-process.mp4",
+      "poster": "images/coffee_process_poster.jpg",
+      "alt": "coffee process",
+      "caption": "Coffee \u2014 bean to cup process",
+      "fit": "contain",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "id": "cake-slice.mp4",
+      "label": "Cake Slice",
+      "src": "images/cake-slice.mp4",
+      "poster": "images/cake_slice_poster.jpg",
+      "alt": "cake slice",
+      "caption": "",
+      "fit": "contain",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "id": "bw-poster-art.mp4",
+      "label": "Bw Poster Art",
+      "src": "images/bw-poster-art.mp4",
+      "poster": "images/bw_poster_poster.jpg",
+      "alt": "bw poster art",
+      "caption": "",
+      "fit": "contain",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "id": "karbon-map.webp",
+      "label": "Karbon Map",
+      "src": "images/karbon-map.webp",
+      "alt": "SEO & growth \u2014 selected studio work",
+      "caption": "Representative regional activity map from the live website.",
+      "poster": "",
+      "fit": "contain",
+      "width": 1200,
+      "height": 850
+    }
+  ]
+}

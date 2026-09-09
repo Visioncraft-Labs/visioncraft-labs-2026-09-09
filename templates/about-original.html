@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — VisionCraft Labs</title>
+<meta name="description" content="VisionCraft Labs was built on the belief that design, technology and AI shouldn't live in separate agencies. Here's how we work.">
+<link rel="canonical" href="https://visioncraft-labs.com/about">
+<link rel="preconnect" href="https://api.fontshare.com">
+<style>
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&f[]=general-sans@600,500,400&display=swap');
+
+:root{
+  --bg: #06080D;
+  --bg-1: #0B0F17;
+  --surface: #10141C;
+  --surface-2: #161B26;
+  --line: rgba(255,255,255,0.08);
+  --text: #F5F7FA;
+  --muted: #8B93A7;
+  --muted-2: #5B6478;
+  --blue: #2F6FED;
+  --cyan: #22D3EE;
+  --grad: linear-gradient(135deg, var(--blue), var(--cyan));
+  --ease: cubic-bezier(.16,.8,.24,1);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:'General Sans', -apple-system, sans-serif;
+  overflow-x:hidden;
+  line-height:1.5;
+}
+h1,h2,h3,.display{
+  font-family:'Satoshi', sans-serif;
+  font-weight:900;
+  letter-spacing:-0.03em;
+  line-height:1.02;
+}
+a{color:inherit;text-decoration:none;}
+img,svg{display:block;max-width:100%;}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+::selection{background:var(--blue);color:#fff;}
+
+.wrap{max-width:1280px;margin:0 auto;padding:0 40px;}
+@media(max-width:640px){.wrap{padding:0 20px;}}
+
+body::before{
+  content:'';
+  position:fixed;inset:0;
+  background:
+    radial-gradient(ellipse 800px 500px at 15% -10%, rgba(47,111,237,0.16), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 10%, rgba(34,211,238,0.10), transparent 60%);
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ---------- NAV ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:28px 0;
+  transition:background .4s var(--ease), padding .4s var(--ease), border-color .4s var(--ease), backdrop-filter .4s var(--ease);
+  border-bottom:1px solid transparent;
+}
+header.scrolled{
+  padding:16px 0;
+  background:rgba(6,8,13,0.7);
+  backdrop-filter:blur(16px) saturate(140%);
+  -webkit-backdrop-filter:blur(16px) saturate(140%);
+  border-color:var(--line);
+}
+nav{display:flex;align-items:center;justify-content:space-between;}
+.logo{font-family:'Satoshi',sans-serif;font-weight:700;font-size:18px;letter-spacing:-0.01em;}
+.logo span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.nav-links{display:flex;gap:40px;font-size:14px;color:var(--muted);}
+.nav-links a{position:relative;transition:color .3s;}
+.nav-links a:hover,.nav-links a.active{color:var(--text);}
+.nav-links a::after{
+  content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;
+  background:var(--grad);transition:width .3s var(--ease);
+}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%;}
+.nav-cta{
+  font-size:13px;font-weight:600;padding:11px 22px;border-radius:100px;
+  border:1px solid var(--line);letter-spacing:0.02em;
+  transition:border-color .3s, background .3s;
+}
+.nav-cta:hover{border-color:rgba(255,255,255,0.3);background:rgba(255,255,255,0.04);}
+@media(max-width:860px){
+  .nav-links{display:none;}
+  .nav-cta{padding:9px 16px;font-size:12px;}
+}
+
+/* ---------- PAGE HERO (interior pages) ---------- */
+.page-hero{padding:180px 0 80px;position:relative;}
+.page-hero .eyebrow{margin-bottom:24px;}
+.page-hero h1{font-size:clamp(2.4rem,5vw,4rem);margin-bottom:24px;max-width:900px;}
+.page-hero p{font-size:18px;color:var(--muted);max-width:560px;font-weight:400;}
+
+/* ---------- HERO (home) ---------- */
+.hero{min-height:100vh;display:flex;align-items:center;padding:140px 0 80px;position:relative;}
+.hero-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:60px;align-items:center;}
+@media(max-width:960px){.hero-grid{grid-template-columns:1fr;}}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:24px;
+}
+.eyebrow::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--grad);}
+
+.hero h1{font-size:clamp(2.6rem, 5.2vw, 4.4rem);margin-bottom:28px;}
+.hero h1 .accent,h1 .accent,h2 .accent{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.hero-sub{font-size:18px;color:var(--muted);max-width:480px;margin-bottom:40px;font-weight:400;}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;}
+.btn{
+  font-size:14px;font-weight:600;padding:15px 28px;border-radius:100px;
+  display:inline-flex;align-items:center;gap:8px;letter-spacing:0.01em;
+  transition:transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+.btn-primary{background:var(--text);color:var(--bg);}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(255,255,255,0.12);}
+.btn-ghost{border:1px solid var(--line);}
+.btn-ghost:hover{border-color:rgba(255,255,255,0.3);transform:translateY(-2px);}
+.btn svg{width:14px;height:14px;transition:transform .3s;}
+.btn:hover svg{transform:translate(2px,-2px);}
+
+.hero-visual{position:relative;aspect-ratio:1/1.05;display:flex;align-items:center;justify-content:center;}
+.morph-stage{position:relative;width:100%;max-width:400px;}
+.morph-frame{
+  position:relative;border-radius:20px;border:1px solid var(--line);
+  background:linear-gradient(160deg, var(--surface), var(--bg-1));
+  box-shadow:0 40px 80px -20px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.06);
+  overflow:hidden;transition:border-radius 1.2s var(--ease), aspect-ratio 1.2s var(--ease);
+  aspect-ratio:16/10;
+}
+.morph-frame .chrome{height:28px;display:flex;align-items:center;gap:6px;padding:0 12px;border-bottom:1px solid var(--line);transition:opacity .6s var(--ease);}
+.morph-frame .chrome span{width:7px;height:7px;border-radius:50%;background:var(--muted-2);}
+.morph-body{position:absolute;inset:28px 0 0 0;padding:20px;display:flex;flex-direction:column;gap:12px;}
+.morph-bar{height:10px;border-radius:6px;background:var(--surface-2);position:relative;overflow:hidden;}
+.morph-bar::after{content:'';position:absolute;inset:0;background:var(--grad);opacity:0.5;animation:shimmer 3.5s ease-in-out infinite;}
+@keyframes shimmer{0%,100%{transform:translateX(-100%);}50%{transform:translateX(100%);}}
+.morph-bar.w60{width:60%;} .morph-bar.w80{width:80%;} .morph-bar.w40{width:40%;}
+.morph-card{margin-top:8px;flex:1;border-radius:10px;background:var(--surface-2);border:1px solid var(--line);}
+.morph-glow{position:absolute;width:60%;height:60%;border-radius:50%;background:radial-gradient(circle, rgba(47,111,237,0.35), transparent 70%);filter:blur(40px);top:-20%;right:-10%;pointer-events:none;}
+.morph-caption{text-align:center;margin-top:24px;font-size:13px;color:var(--muted-2);letter-spacing:0.04em;text-transform:uppercase;}
+
+/* ---------- SECTION SHARED ---------- */
+section{position:relative;padding:140px 0;z-index:1;}
+@media(max-width:640px){section{padding:80px 0;}}
+.section-head{margin-bottom:64px;max-width:640px;}
+.section-head.wide{max-width:900px;}
+.section-head .eyebrow{margin-bottom:20px;}
+.section-head h2{font-size:clamp(2rem,4vw,3rem);margin-bottom:16px;}
+.section-head p{color:var(--muted);font-size:17px;}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease), transform .8s var(--ease);}
+.reveal.in{opacity:1;transform:translateY(0);}
+
+/* ---------- SELECTED WORK / CASE STUDIES ---------- */
+.work-grid{display:flex;flex-direction:column;gap:2px;}
+.work-item{display:grid;grid-template-columns:1fr 1.3fr;gap:48px;align-items:center;padding:48px 0;border-top:1px solid var(--line);transition:padding .4s var(--ease);}
+.work-item:last-child{border-bottom:1px solid var(--line);}
+@media(max-width:860px){.work-item{grid-template-columns:1fr;gap:24px;}}
+.work-info .tag{font-size:12px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:14px;display:block;}
+.work-info h3{font-size:28px;font-weight:700;margin-bottom:12px;}
+.work-info p{color:var(--muted);font-size:15px;margin-bottom:20px;max-width:420px;}
+.work-link{font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:6px;}
+.work-visual{aspect-ratio:16/10;border-radius:16px;background:linear-gradient(135deg, var(--surface), var(--surface-2));border:1px solid var(--line);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.work-visual::before{content:attr(data-label);font-size:12px;color:var(--muted-2);letter-spacing:0.08em;text-transform:uppercase;text-align:center;padding:0 24px;}
+.work-visual .dot-grid{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);background-size:20px 20px;}
+.work-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.placeholder-note{font-size:11px;color:var(--muted-2);margin-top:6px;font-style:italic;}
+
+/* filters */
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:56px;}
+.filter-btn{font-size:13px;font-weight:600;padding:10px 20px;border-radius:100px;border:1px solid var(--line);color:var(--muted);transition:all .3s var(--ease);}
+.filter-btn:hover{color:var(--text);border-color:rgba(255,255,255,0.25);}
+.filter-btn.active{background:var(--text);color:var(--bg);border-color:var(--text);}
+.work-item.hidden{display:none;}
+
+/* result stat row */
+.result-row{display:flex;gap:32px;flex-wrap:wrap;margin-top:8px;}
+.result-row .r{border-left:2px solid var(--cyan);padding-left:14px;}
+.result-row .r b{display:block;font-family:'Satoshi';font-size:20px;font-weight:700;}
+.result-row .r span{font-size:12px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.06em;}
+
+/* ---------- SERVICES ---------- */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden;}
+@media(max-width:860px){.services-grid{grid-template-columns:1fr;}}
+.service-card{background:var(--bg);padding:40px 32px;transition:background .4s;}
+.service-card:hover{background:var(--surface);}
+.service-icon{width:36px;height:36px;margin-bottom:24px;color:var(--cyan);}
+.service-card h3{font-size:19px;font-weight:700;margin-bottom:10px;}
+.service-card p{font-size:14px;color:var(--muted);}
+
+/* service detail block */
+.service-detail{display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:80px 0;border-top:1px solid var(--line);align-items:start;}
+.service-detail:last-child{border-bottom:1px solid var(--line);}
+@media(max-width:900px){.service-detail{grid-template-columns:1fr;gap:32px;}}
+.service-detail .num{font-family:'Satoshi';font-weight:700;font-size:13px;color:var(--muted-2);margin-bottom:20px;display:block;}
+.service-detail h2{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:18px;}
+.service-detail p{color:var(--muted);font-size:16px;margin-bottom:24px;max-width:460px;}
+.chip-list{display:flex;flex-wrap:wrap;gap:10px;}
+.chip{font-size:13px;padding:8px 16px;border-radius:100px;border:1px solid var(--line);color:var(--muted);}
+
+/* ---------- TRANSFORM SLIDER ---------- */
+.transform-block{border-radius:24px;border:1px solid var(--line);background:linear-gradient(160deg, var(--surface), var(--bg-1));padding:8px;overflow:hidden;}
+.slider-frame{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:var(--surface-2);}
+.slider-before, .slider-after{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'Satoshi';font-weight:700;font-size:14px;letter-spacing:0.05em;text-transform:uppercase;}
+.slider-before{background:linear-gradient(135deg,#1a1d24,#22262f);color:var(--muted-2);}
+.slider-after{background:linear-gradient(135deg,#0d1b3a,#0f2540);color:var(--cyan);clip-path:inset(0 0 0 50%);}
+.slider-handle{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff;cursor:ew-resize;}
+.slider-handle::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:40px;height:40px;border-radius:50%;background:#fff;box-shadow:0 4px 20px rgba(0,0,0,0.3);}
+.slider-range{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;-webkit-appearance:none;appearance:none;margin:0;}
+.transform-labels{display:flex;justify-content:space-between;padding:20px 24px 12px;font-size:12px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.08em;}
+
+/* ---------- PROCESS ---------- */
+.process-list{border-top:1px solid var(--line);}
+.process-item{display:grid;grid-template-columns:80px 1fr 1.4fr;gap:32px;padding:36px 0;border-bottom:1px solid var(--line);align-items:baseline;}
+@media(max-width:760px){.process-item{grid-template-columns:50px 1fr;}.process-item .p-desc{grid-column:2;}}
+.process-num{font-family:'Satoshi';font-weight:700;font-size:14px;color:var(--muted-2);}
+.process-item h3{font-size:20px;font-weight:700;}
+.process-item p{color:var(--muted);font-size:15px;}
+
+/* ---------- PILLARS ---------- */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
+@media(max-width:860px){.pillars{grid-template-columns:1fr;}}
+.pillar{padding:36px 0;border-top:2px solid transparent;border-image:var(--grad) 1;}
+.pillar h3{font-size:22px;margin-bottom:12px;}
+.pillar p{color:var(--muted);font-size:15px;}
+
+/* ---------- CTA ---------- */
+.cta-section{border-radius:28px;background:linear-gradient(160deg, var(--surface), var(--bg-1));border:1px solid var(--line);padding:100px 60px;text-align:center;position:relative;overflow:hidden;}
+@media(max-width:640px){.cta-section{padding:60px 24px;}}
+.cta-section::before{content:'';position:absolute;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle, rgba(47,111,237,0.2), transparent 70%);top:-200px;left:50%;transform:translateX(-50%);filter:blur(20px);}
+.cta-section h2{font-size:clamp(1.8rem,4vw,3rem);margin-bottom:32px;position:relative;}
+.cta-section .hero-ctas{justify-content:center;position:relative;}
+
+/* ---------- FOOTER ---------- */
+footer{border-top:1px solid var(--line);padding:80px 0 40px;position:relative;z-index:1;}
+.footer-top{display:grid;grid-template-columns:1.4fr repeat(4,1fr);gap:40px;margin-bottom:80px;}
+@media(max-width:760px){.footer-top{grid-template-columns:1fr 1fr;}}
+.footer-brand p{color:var(--muted);font-size:14px;margin-top:16px;max-width:240px;}
+.footer-col h4{font-size:12px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:18px;}
+.footer-col a{display:block;font-size:14px;color:var(--muted);margin-bottom:12px;transition:color .3s;}
+.footer-col a:hover{color:var(--text);}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding-top:32px;border-top:1px solid var(--line);font-size:13px;color:var(--muted-2);}
+
+/* ---------- ABOUT ---------- */
+.philosophy{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
+@media(max-width:860px){.philosophy{grid-template-columns:1fr;gap:32px;}}
+.philosophy p{color:var(--muted);font-size:17px;margin-bottom:20px;max-width:480px;}
+.belief-list{display:flex;flex-direction:column;gap:0;}
+.belief-item{padding:28px 0;border-top:1px solid var(--line);}
+.belief-item:last-child{border-bottom:1px solid var(--line);}
+.belief-item h3{font-size:18px;margin-bottom:8px;}
+.belief-item p{color:var(--muted);font-size:15px;max-width:480px;margin:0;}
+.stat-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:20px;overflow:hidden;}
+@media(max-width:760px){.stat-strip{grid-template-columns:1fr 1fr;}}
+.stat-box{background:var(--bg);padding:36px 28px;}
+.stat-box b{font-family:'Satoshi';font-weight:700;font-size:28px;display:block;margin-bottom:6px;}
+.stat-box span{font-size:13px;color:var(--muted-2);}
+
+/* ---------- CONTACT ---------- */
+.contact-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:64px;align-items:start;}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:48px;}}
+.contact-info h2{font-size:clamp(1.8rem,3.4vw,2.6rem);margin-bottom:20px;}
+.contact-info p{color:var(--muted);font-size:16px;margin-bottom:32px;max-width:420px;}
+.contact-detail{display:flex;flex-direction:column;gap:18px;margin-bottom:40px;}
+.contact-detail a{font-size:15px;color:var(--text);border-bottom:1px solid var(--line);padding-bottom:14px;display:flex;justify-content:space-between;align-items:center;transition:border-color .3s;}
+.contact-detail a:hover{border-color:rgba(255,255,255,0.3);}
+.contact-detail span{color:var(--muted-2);font-size:12px;text-transform:uppercase;letter-spacing:0.08em;}
+.social-row{display:flex;gap:14px;}
+.social-row a{font-size:13px;padding:10px 18px;border-radius:100px;border:1px solid var(--line);color:var(--muted);transition:all .3s;}
+.social-row a:hover{color:var(--text);border-color:rgba(255,255,255,0.3);}
+
+form.project-form{display:flex;flex-direction:column;gap:22px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:40px;}
+@media(max-width:640px){form.project-form{padding:24px;}}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+@media(max-width:560px){.form-row{grid-template-columns:1fr;}}
+.field label{display:block;font-size:12px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:10px;}
+.field input, .field textarea, .field select{
+  width:100%;background:var(--bg-1);border:1px solid var(--line);border-radius:10px;
+  padding:14px 16px;color:var(--text);font-family:inherit;font-size:14px;
+  transition:border-color .3s;
+}
+.field input:focus, .field textarea:focus, .field select:focus{outline:none;border-color:var(--cyan);}
+.field textarea{resize:vertical;min-height:110px;}
+.chip-select{display:flex;flex-wrap:wrap;gap:10px;}
+.chip-option{font-size:13px;padding:9px 16px;border-radius:100px;border:1px solid var(--line);color:var(--muted);cursor:pointer;transition:all .25s;}
+.chip-option input{display:none;}
+.chip-option.checked{background:var(--text);color:var(--bg);border-color:var(--text);}
+.submit-row{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-top:8px;}
+.form-note{font-size:12px;color:var(--muted-2);}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:0.01ms !important;transition-duration:0.01ms !important;}
+  html{scroll-behavior:auto;}
+}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;}
+
+</style>
+<link rel="stylesheet" href="brand.css">
+</head>
+<body>
+
+<header id="header">
+  <div class="wrap">
+    <nav>
+      <a href="index.html" class="logo" aria-label="VisionCraft Labs home"><span class="official-mark" aria-hidden="true"><img src="images/visioncraft-official-logo.webp" alt="" width="480" height="320"></span><span class="brand-name">Vision<span>Craft</span> Labs</span></a>
+      <div class="nav-links">
+        <a href="work.html">Work</a>
+        <a href="services.html">Services</a>
+        <a href="about.html" class="active">About</a>
+        <a href="insights.html">Insights</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a href="contact.html" class="nav-cta">Start a Project</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <span class="eyebrow reveal in">About</span>
+      <h1 class="reveal in">Creativity meets <span class="accent">technology.</span></h1>
+      <p class="reveal in">VisionCraft Labs exists because the boundaries between design, technology, content, software and AI are disappearing — and clients need all of it working together, not scattered across five different vendors.</p>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="philosophy reveal">
+        <div>
+          <span class="eyebrow">Philosophy</span>
+          <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:20px;">One studio, built for how digital work actually happens.</h2>
+          <p>Most companies don't need a photography studio, a web agency, an app shop and an automation consultancy. They need one team that understands how a brand, a website, a product and an AI system all connect — because in practice, they always do.</p>
+        </div>
+        <div>
+          <span class="eyebrow">How we work</span>
+          <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:20px;">Design-led. Technology-driven. AI-enabled.</h2>
+          <p>Every project starts with the same question: what does this brand need to say, and to whom? From there we move through strategy, design and build with one connected team — not a hand-off between disconnected specialists.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE BELIEVE -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">What we believe</span>
+        <h2>Different disciplines. One vision.</h2>
+      </div>
+      <div class="belief-list reveal">
+        <div class="belief-item">
+          <h3>Design is not decoration.</h3>
+          <p>Every visual choice should make a brand easier to understand and a product easier to use — never the other way around.</p>
+        </div>
+        <div class="belief-item">
+          <h3>Technology should disappear.</h3>
+          <p>The best-built websites and apps feel effortless. We optimize for that feeling, not for technical complexity as a display of skill.</p>
+        </div>
+        <div class="belief-item">
+          <h3>AI earns its place.</h3>
+          <p>We use AI where it genuinely improves creativity, efficiency or experience — never as a generic layer bolted on for the sake of it.</p>
+        </div>
+        <div class="belief-item">
+          <h3>Proof beats promises.</h3>
+          <p>We'd rather show real work and real outcomes than make claims we can't verify.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES SNAPSHOT -->
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Capabilities</span>
+        <h2>What we bring to the table.</h2>
+      </div>
+      <div class="stat-strip reveal">
+        <div class="stat-box"><b>Websites</b><span>Strategy → UX/UI → Build</span></div>
+        <div class="stat-box"><b>Apps</b><span>Mobile, web &amp; internal tools</span></div>
+        <div class="stat-box"><b>AI Creative</b><span>Product visuals &amp; campaigns</span></div>
+        <div class="stat-box"><b>AI Automation</b><span>Assistants &amp; workflows</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta-section reveal">
+        <h2>Have an idea worth building?</h2>
+        <div class="hero-ctas">
+          <a href="contact.html" class="btn btn-primary">Start a project <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg></a>
+          <a href="work.html" class="btn btn-ghost">View our work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="VisionCraft Labs home"><span class="official-mark" aria-hidden="true"><img src="images/visioncraft-official-logo.webp" alt="" width="480" height="320"></span><span class="brand-name">Vision<span>Craft</span> Labs</span></a>
+        <p>Design. Technology. AI.</p>
+      </div>
+      <div class="footer-col"><h4>Services</h4>
+        <a href="services.html#websites">Websites</a>
+        <a href="services.html#apps">Apps</a>
+        <a href="services.html#ai-creative">AI Creative</a>
+        <a href="services.html#ai-automation">AI Automation</a>
+        <a href="services.html#brand">Brand &amp; Design</a>
+      </div>
+      <div class="footer-col"><h4>Work</h4>
+        <a href="work.html">Selected Work</a>
+        <a href="work.html#karbonkreds">Case Studies</a>
+      </div>
+      <div class="footer-col"><h4>Company</h4>
+        <a href="about.html">About</a>
+        <a href="insights.html">Insights</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col"><h4>Social</h4>
+        <a href="https://www.instagram.com/visioncraft_labs/" target="_blank" rel="noopener noreferrer" aria-label="VisionCraft Labs on Instagram (opens in a new tab)">Instagram</a>
+        <a href="https://www.facebook.com/people/Visioncraft-Labs/61577453503470/" target="_blank" rel="noopener noreferrer" aria-label="VisionCraft Labs on Facebook (opens in a new tab)">Facebook</a>
+        <a href="https://x.com/VisioncraftLabs" target="_blank" rel="noopener noreferrer" aria-label="VisionCraft Labs on X (opens in a new tab)">X</a>
+        <a href="https://www.tiktok.com/@visioncraftlabs" target="_blank" rel="noopener noreferrer" aria-label="VisionCraft Labs on TikTok (opens in a new tab)">TikTok</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 VisionCraft Labs. All rights reserved.</span>
+      <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Nav blur on scroll
+const header = document.getElementById('header');
+if(header){
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+  }, {passive:true});
+}
+
+// Scroll reveal
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('in'); });
+}, {threshold:0.15});
+revealEls.forEach(el => io.observe(el));
+
+</script>
+</body>
+</html>

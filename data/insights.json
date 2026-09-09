@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "brand-identity-vs-logo-design",
+    "title": "Brand identity vs logo design: what are you actually buying?",
+    "description": "A practical guide to the difference between a mark, an identity system and the strategy that makes either useful.",
+    "category": "Brand thinking",
+    "published": "2026-09-06",
+    "readTime": "4 min read",
+    "service": "branding",
+    "sections": [
+      {
+        "heading": "Start with the problem, not the deliverable",
+        "paragraphs": [
+          "A request for a new logo often begins with a broader problem: the business has changed, the website feels inconsistent or the sales presentation no longer explains the offer well. Before deciding what to commission, identify where the current identity is falling short.",
+          "If the only problem is a technically poor logo file, a focused asset repair may be enough. If every communication looks unrelated, the missing piece is more likely a system."
+        ]
+      },
+      {
+        "heading": "What a logo does",
+        "paragraphs": [
+          "A logo is an identifying mark. It should reproduce clearly in the places the business needs it: a website header, proposal, product, invoice or small social profile. A logo project may include variations and files, but it does not automatically define the rest of the brand experience.",
+          "Ask which formats, color versions, minimum sizes and usage guidance are included. An attractive presentation is not a substitute for files your team can use."
+        ]
+      },
+      {
+        "heading": "What an identity system adds",
+        "paragraphs": [
+          "An identity system defines how the brand behaves visually. Typography, color, image direction, spacing and composition work alongside the logo. Applications show how those rules translate into actual communication.",
+          "The useful test is whether someone can create a new page or presentation that belongs to the same brand without copying the original layout. A good system provides enough direction to make that possible."
+        ]
+      },
+      {
+        "heading": "Where strategy fits",
+        "paragraphs": [
+          "Strategy clarifies the audience, offer and position that the identity needs to express. It gives design decisions a business context and helps the team judge ideas against something more useful than personal preference.",
+          "The depth of strategy should match the uncertainty. A well-defined business may need a concise alignment phase; a new or changing proposition may need more exploration."
+        ]
+      },
+      {
+        "heading": "How to write a better brief",
+        "paragraphs": [
+          "Describe what has changed, who the brand needs to reach and where the identity must work. Share the current assets and the practical constraints. Be explicit about a protected logo or other elements that must remain.",
+          "Ask for a scope that separates strategic work, identity development, applications and handover. This makes proposals easier to compare and reduces ambiguity about what happens after approval."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "website-redesign-checklist",
+    "title": "Before you redesign your website, answer these questions.",
+    "description": "A focused checklist for a redesign that improves clarity, protects useful content and gives the business a maintainable foundation.",
+    "category": "Digital strategy",
+    "published": "2026-09-06",
+    "readTime": "4 min read",
+    "service": "web-design",
+    "sections": [
+      {
+        "heading": "What needs to change for the business?",
+        "paragraphs": [
+          "A redesign should begin with a business problem. Perhaps visitors cannot understand the offer, the company has entered a new market or the site makes it difficult to inquire. Write down the change you want to see before collecting visual references.",
+          "Choose a few practical measures, such as qualified inquiries or completion of a key journey. A traffic increase alone may not tell you whether the website is helping the business."
+        ]
+      },
+      {
+        "heading": "What should be preserved?",
+        "paragraphs": [
+          "List the useful assets: the official logo, real project work, effective copy, important URLs and working contact channels. Record the source of each item so the redesign does not accidentally replace genuine brand equity with invented material.",
+          "Review existing search data if it is available. Pages that already attract relevant visitors deserve a deliberate migration decision, even when their layouts need to change."
+        ]
+      },
+      {
+        "heading": "What will visitors need to understand?",
+        "paragraphs": [
+          "Map the major questions: what the company does, who it serves, what proof is available and how to take the next step. Build the navigation and page structure around those decisions.",
+          "Avoid multiplying pages just to repeat a phrase. A service page should answer useful questions specific to that service and connect to relevant work."
+        ]
+      },
+      {
+        "heading": "Who will maintain it?",
+        "paragraphs": [
+          "Decide who changes copy, replaces images, publishes articles and manages inquiry notifications. Editing needs affect the content model and may influence whether a CMS is worthwhile.",
+          "Ask for a demonstration of a routine update during handover. Replacing a photograph should not require rewriting a component or animation."
+        ]
+      },
+      {
+        "heading": "What does launch include?",
+        "paragraphs": [
+          "A launch plan should cover redirects, metadata, contact forms, phone links, analytics configuration and direct access to nested pages. It should also name the person responsible for the domain and hosting.",
+          "Review mobile behavior, keyboard access and reduced motion alongside desktop visuals. Keep a record of the deployed version and a practical rollback path. The first production release is the start of an operating website, not the end of responsibility."
+        ]
+      }
+    ]
+  }
+]

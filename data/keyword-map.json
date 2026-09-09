@@ -1,0 +1,151 @@
+[
+  {
+    "primary": "branding agency Pakistan",
+    "secondary": [
+      "Brand strategy & identity",
+      "Brand services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/branding",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-karbon-kreds",
+      "/work-pavilion"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "web design agency Pakistan",
+    "secondary": [
+      "Web design",
+      "Digital services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/web-design",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-karbon-kreds",
+      "/work-talon"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "website development company Pakistan",
+    "secondary": [
+      "Web development",
+      "Technology services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/web-development",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-karbon-kreds",
+      "/work-address12"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "UI UX design agency Pakistan",
+    "secondary": [
+      "UX/UI & digital products",
+      "Digital services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/ui-ux-design",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-address12",
+      "/work-pavilion"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "custom software development Pakistan",
+    "secondary": [
+      "Custom software development",
+      "Technology services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/custom-software-development",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-address12"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "AI automation agency",
+    "secondary": [
+      "AI & automation",
+      "Intelligence services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/ai-automation",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-address12"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "creative content studio",
+    "secondary": [
+      "Creative content",
+      "Content services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/creative-content",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-talon",
+      "/work-pavilion"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "product photography Pakistan",
+    "secondary": [
+      "Product photography",
+      "Content services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/product-photography",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-talon"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  },
+  {
+    "primary": "SEO agency Pakistan",
+    "secondary": [
+      "SEO & growth",
+      "Growth services"
+    ],
+    "intent": "Commercial investigation",
+    "target": "/seo",
+    "supporting_content": [
+      "/insights"
+    ],
+    "internal_links": [
+      "/work-karbon-kreds"
+    ],
+    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+  }
+]
