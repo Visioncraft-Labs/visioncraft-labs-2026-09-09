@@ -49,50 +49,50 @@
     "mediaId": "address12-dashboard.jpg"
   },
   {
-    "slug": "pavilion",
-    "name": "Pavilion",
-    "industry": "Sports technology",
-    "headline": "A sharper perspective on every match.",
-    "summary": "AI sports intelligence",
+    "slug": "skincare-objects",
+    "name": "Skincare Objects",
+    "industry": "Consumer brands \u00b7 Concept project",
+    "headline": "An everyday object. An extraordinary impression.",
+    "summary": "Skincare campaign \u00b7 Studio concept",
     "services": [
-      "Brand strategy",
-      "Digital experience",
-      "Content systems"
+      "Creative direction",
+      "Campaign concept",
+      "AI-assisted visual production"
     ],
+    "status": "Self-initiated concept \u00b7 Not commissioned client work",
+    "challenge": "Explore how a skincare product can become the focal point of a bold, cohesive launch campaign without relying on product claims.",
+    "strategy": "Use one memorable material idea: warm orange glass. Repeat its color, light and circular geometry to create a recognizable campaign language.",
+    "approach": "This concept pairs an AI-assisted product composition with a proposed digital campaign direction. Reflective surfaces and a tightly controlled orange palette make the product the central visual subject.",
+    "delivery": "A visual campaign concept presented to demonstrate creative direction and AI-assisted production. It is not a launched client engagement; packaging text is illustrative and no sales or performance results are claimed.",
+    "mediaId": "skincare-jar-orange-glow.jpg",
     "featured": true,
     "featuredOrder": 3,
-    "theme": "sports",
+    "theme": "skincare-objects",
     "gallery": [],
-    "status": "Brand & content direction",
-    "challenge": "Give a sports-intelligence proposition a clear, connected visual language across brand and communication.",
-    "strategy": "Connect the competitive energy of sport with an understandable product story for players, coaches and clubs.",
-    "approach": "Brand strategy, product messaging and visual explorations were brought into a coordinated content direction. Social launch work connected the identity to clear calls to action.",
-    "delivery": "Brand strategy and creative content development. Product-interface imagery shown in the brand board represents visual exploration, not verified performance results.",
-    "credits": "VisionCraft Labs \u2014 brand and content direction.",
-    "mediaId": "pavilion.webp"
+    "credits": "VisionCraft Labs \u2014 self-initiated creative concept."
   },
   {
-    "slug": "talon",
-    "name": "Talon",
-    "industry": "Manufacturing",
-    "headline": "Making the craft behind the product visible.",
-    "summary": "Manufacturing reimagined",
+    "slug": "daily-ritual",
+    "name": "Daily Ritual",
+    "industry": "Food & beverage \u00b7 Concept project",
+    "headline": "Make a small ritual worth remembering.",
+    "summary": "Coffee imagery & motion \u00b7 Studio concept",
     "services": [
-      "Digital strategy",
-      "Web design",
-      "Photography",
-      "Content"
+      "Art direction",
+      "Campaign concept",
+      "Creative content",
+      "Short-form motion"
     ],
+    "status": "Self-initiated concept \u00b7 Not commissioned client work",
+    "challenge": "Explore a coffee campaign that creates a recognizable mood across still imagery and a short product film.",
+    "strategy": "Build the concept around familiar moments: the cup, the light and the process. Let composition and rhythm carry the story.",
+    "approach": "The concept combines a coffee still-life study with a bean-to-cup motion piece from the studio collection. These visuals explore how one creative direction might translate across social and digital placements.",
+    "delivery": "An illustrative coffee campaign and motion exploration. This is not a commissioned client project, a functioning commerce platform or evidence of commercial results.",
+    "mediaId": "coffee-art-aesthetic.jpg",
     "featured": true,
     "featuredOrder": 4,
-    "theme": "manufacturing",
+    "theme": "daily-ritual",
     "gallery": [],
-    "status": "Digital & visual direction",
-    "challenge": "Translate a manufacturing business into a focused digital story about production, quality and the people behind the product.",
-    "strategy": "Build a visual narrative around the making process. Give each part of the website a clear role in explaining the business.",
-    "approach": "The creative work covers website imagery, manufacturing-led visual direction and content for the company story, quality assurance and future vision.",
-    "delivery": "Digital content and creative visual development. Production credentials, certifications and capacity figures are not asserted here.",
-    "credits": "VisionCraft Labs \u2014 creative direction and digital content.",
-    "mediaId": "talon.webp"
+    "credits": "VisionCraft Labs \u2014 self-initiated creative concept."
   }
 ]
