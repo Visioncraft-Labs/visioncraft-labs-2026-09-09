@@ -21,7 +21,7 @@ KarbonKreds: current homepage screenshot captured from https://karbonkreds.com/ 
 
 Address12: actual React components from `Address12_10.3.2_TypeScript_Source_With_Tests.zip`, rendered in an isolated screenshot harness with synthetic demonstration data and no guest information. The published site contains the screenshot only, not the private software, credentials, database or runnable admin environment. UI figures are illustrative, not customer outcomes.
 
-Pavilion: existing project presentation board, explicitly described as brand exploration. Talon: existing AI-assisted manufacturing creative, explicitly not documentary factory photography. All supplied gallery photos/posters and all three MP4 clips are retained.
+Skincare Objects and Daily Ritual are self-initiated mock campaigns, clearly labelled as concepts rather than commissioned client work. All supplied gallery photos/posters and all three MP4 clips are retained.
 
 The AI Lab is a local simulated workflow. It classifies a mock retail website inquiry and prepares a review state. It makes no AI API call and sends no messages. It is not represented as a deployed client engagement.
 

@@ -59,8 +59,8 @@ for i,p in enumerate(projects):
  tag='div' if library.is_video(library.items[file]['src']) else 'a'
  hero_media+=f'<{tag} class="stage-panel {"active" if i==0 else ""}" href="work-{p["slug"]}.html" data-label="{E(p["name"])} · {E(p["summary"])}" '+('hidden' if i else '')+'>'+img(file,alt,False)+f'</{tag}>'
 hero_media+='<div class="stage-panel" data-label="AI Automation · Concept demonstration" hidden>'+demo()+'</div></div><div class="stage-caption" aria-live="polite">Karbon Kreds · Carbon infrastructure &amp; digital platform</div></div><div class="stage-select" aria-label="Choose featured work">'
-for i,n in enumerate(['KarbonKreds','Address12','Pavilion','Talon','AI Lab']):hero_media+=f'<button class="{"selected" if i==0 else ""}" aria-pressed="{"true" if i==0 else "false"}" data-stage="{i}">{n}</button>'
-hero_media+='</div><div class="stage-note">Real work. Connected capabilities. <button class="rotation-control" data-pause-stage>Pause rotation</button></div></div>'
+for i,n in enumerate([p['name'] for p in projects]+['AI Lab']):hero_media+=f'<button class="{"selected" if i==0 else ""}" aria-pressed="{"true" if i==0 else "false"}" data-stage="{i}">{n}</button>'
+hero_media+='</div><div class="stage-note">Client work. Studio concepts. Connected capabilities. <button class="rotation-control" data-pause-stage>Pause rotation</button></div></div>'
 
 home=f'''<section class="hero"><div class="wrap"><div class="hero-grid"><div class="hero-copy"><span class="eyebrow">Independent creative technology studio</span><h1>We design brands, build digital products, and create <span class="accent">AI-powered experiences.</span></h1><p class="hero-sub">VisionCraft Labs brings strategy, design and engineering together to turn ambitious ideas into distinctive, commercially focused experiences.</p><div class="hero-ctas"><a class="btn btn-primary" href="#selected">View selected work</a><a class="btn btn-ghost" href="contact.html">Start a project</a></div></div>{hero_media}</div></div></section>
 <section class="manifesto"><div class="wrap"><span class="eyebrow">Design. Technology. Intelligence.</span><h2>We don’t decorate businesses.<br><span>We design how they’re experienced.</span></h2><p>From the first impression to the systems behind it. One studio connecting brand, digital experience and business operations.</p></div></section>
@@ -78,15 +78,16 @@ gallery=re.search(r'<section id="studio-gallery">.*?</section>',work,re.S).group
 gallery=gallery.replace('<div class="section-head wide reveal" style="margin-top:80px;">','<div class="section-head wide reveal" id="motion" style="margin-top:80px;">').replace('<video autoplay muted loop playsinline','<video muted loop playsinline controls preload="none"')
 gallery=gallery.replace('studio product photography','AI-assisted product composition').replace('studio food photography','creative food composition')
 lab='<section><div class="wrap lab-callout"><div><span class="eyebrow">Studio lab · Concept demonstration</span><h2>From an inquiry<br>to a useful first draft.</h2><p>A simulated workflow shows how incoming requests can be classified, routed and prepared for human review. This is a capability demonstration, not a client deployment.</p><a class="text-link" href="ai-automation.html">Explore AI automation</a></div><div class="bevel">'+demo()+'</div></div></section>'
-body=hero('Selected work','Ideas transformed<br>into experiences.','Websites, proprietary software, brand exploration and creative production. Explore the thinking as well as the finished work.')
+body=hero('Selected work','Ideas transformed<br>into experiences.','Client websites, proprietary software and clearly labelled studio concepts. Explore the thinking as well as the finished work.')
 body+='<section class="selected-work"><div class="wrap">'+''.join(project_row(p,i+1) for i,p in enumerate(projects))+'</div></section>'+lab+gallery+cta()
-page('work.html','Selected Work & Case Studies | VisionCraft Labs','Explore KarbonKreds website design, Address12 hospitality software, Pavilion brand exploration and VisionCraft creative production.',body)
+page('work.html','Selected Work & Case Studies | VisionCraft Labs','Explore KarbonKreds website design, Address12 hospitality software, self-initiated campaign concepts and VisionCraft creative production.',body)
 for i,p in enumerate(projects):
  body=hero(E(p['industry']),E(p['headline']),E(p['summary']))+f'<section class="case-visual"><div class="wrap">{media(p)}</div></section>'
  body+='<section class="case-story"><div class="wrap"><aside><span class="eyebrow">'+E(p['name'])+'</span><p>'+E(p['status'])+'</p><ul>'+''.join('<li>'+E(x)+'</li>' for x in p['services'])+'</ul></aside><div class="reading">'
  for title,key in [('The challenge','challenge'),('The strategy','strategy'),('Design & engineering','approach'),('The delivery','delivery')]:body+=f'<h2>{title}</h2><p>{E(p[key])}</p>'
  if p['slug']=='karbon-kreds':body+=f'<figure class="bevel">{img("karbon-map.webp","Representative Canadian activity map from the KarbonKreds website")}<figcaption>Representative regional activity map from the live website.</figcaption></figure><a class="btn btn-primary" href="https://karbonkreds.com/" target="_blank" rel="noopener noreferrer">Visit KarbonKreds</a>'
  if p['slug']=='address12':body+='<h2>From booking to back office.</h2><p>Room and rate management support reservations. Guest records connect the stay to billing and communications. Expenses, payroll and reporting bring the operational picture into the same interface.</p><p>Address12 is a local application, so its private operator environment is not linked from this portfolio. Request a demonstration to explore the relevant workflows.</p><a class="btn btn-primary" href="contact.html?project=Address12">Request an Address12 demonstration</a>'
+ if p['slug']=='daily-ritual':body+='<h2>From bean to cup</h2>'+img('coffee-process.mp4')+'<p>Illustrative studio motion study, presented as part of this mock campaign.</p>'
  body+='</div></div></section>'
  nextp=projects[(i+1)%len(projects)]; body+=f'<section class="related-band"><div class="wrap"><span class="eyebrow">Continue exploring</span><h2><a href="work-{nextp["slug"]}.html">{nextp["name"]}</a></h2><a class="text-link" href="services.html">Explore our capabilities</a></div></section>'+cta()
  page('work-'+p['slug']+'.html',p['name']+' — '+p['summary']+' | VisionCraft Labs',p['challenge'],body)
@@ -94,7 +95,7 @@ for i,p in enumerate(projects):
 body=hero('Capabilities','Strategy to launch.<br>Connected by design.','Branding, websites, digital products, custom software, AI automation and creative production, shaped around the business problem.')+'<section><div class="wrap capability-list">'
 for i,s in enumerate(services):body+=f'<a href="{s["slug"]}.html" id="{s["slug"]}"><span>{i+1:02}</span><div><h2>{E(s["name"])}</h2><p>{E(s["description"])}</p></div></a>'
 body+='</div></section>'+cta();page('services.html','Branding, Web Design, Software & AI Services | VisionCraft Labs','Explore VisionCraft Labs services for companies in Pakistan and internationally: strategy, identity, websites, custom software, AI and creative production.',body)
-service_images={'branding':'pavilion.webp','web-design':'karbonkreds-website.jpg','web-development':'karbonkreds-website.jpg','ui-ux-design':'address12-dashboard.jpg','custom-software-development':'address12-dashboard.jpg','ai-automation':'address12-dashboard.jpg','creative-content':'lipstick-pink-vibes.jpg','product-photography':'candle-oaalses-stone.jpg','seo':'karbon-map.webp'}
+service_images={'branding':'skincare-jar-orange-glow.jpg','web-design':'karbonkreds-website.jpg','web-development':'karbonkreds-website.jpg','ui-ux-design':'address12-dashboard.jpg','custom-software-development':'address12-dashboard.jpg','ai-automation':'address12-dashboard.jpg','creative-content':'lipstick-pink-vibes.jpg','product-photography':'candle-oaalses-stone.jpg','seo':'karbon-map.webp'}
 for s in services:
  p=next(p for p in projects if p['slug']==s['projects'][0]);body=hero(E(s['name']),E(s['headline']),E(s['description']))
  body+=f'<section class="service-editorial"><div class="wrap"><div class="reading"><span class="eyebrow">The business problem</span><h2>{E(s["name"])} with a clear purpose.</h2><p>{E(s["problem"])}</p></div><figure class="bevel">{img(service_images[s["slug"]],project_media[p["slug"]][1] if service_images[s["slug"]]==project_media[p["slug"]][0] else s["name"]+" — selected studio work")}<figcaption>Selected studio work. {"Address12 uses demonstration data." if service_images[s["slug"]]=="address12-dashboard.jpg" else ""}</figcaption></figure></div></section>'
@@ -111,7 +112,7 @@ for s in services:
 # Useful complete articles instead of teaser cards with dead links.
 body=hero('Studio insights','Better questions.<br>Better digital work.','Practical thinking to help you brief, commission and maintain your next brand or digital project.')+'<section><div class="wrap insight-list">'
 for i,a in enumerate(insights):
- image='pavilion.webp' if i==0 else 'karbonkreds-website.jpg'
+ image='skincare-jar-orange-glow.jpg' if i==0 else 'karbonkreds-website.jpg'
  body+=f'<article><a href="insight-{a["slug"]}.html" class="bevel">{img(image,a["category"]+" — studio project example")}</a><div><span class="eyebrow">{E(a["category"])}</span><h2><a href="insight-{a["slug"]}.html">{E(a["title"])}</a></h2><p>{E(a["description"])}</p><a class="text-link" href="insight-{a["slug"]}.html">Read the article</a></div></article>'
  article=hero(E(a['category']),E(a['title']),E(a['description']))+'<section><article class="wrap reading"><p class="byline">By VisionCraft Labs · '+E(a['readTime'])+'</p>'
  for sec in a['sections']:article+='<h2>'+E(sec['heading'])+'</h2>'+''.join('<p>'+E(p)+'</p>' for p in sec['paragraphs'])
@@ -147,7 +148,7 @@ for file,_ in allpages:
 (OUT/'robots.txt').write_text('User-agent: *\nDisallow: /\n' if preview else 'User-agent: *\nAllow: /\nSitemap: '+origin+'/sitemap.xml\n')
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+('' if preview else ''.join('<url><loc>'+url+'</loc></url>' for f,url in allpages if f not in ['404.html','thank-you.html']))+'</urlset>')
 (OUT/'_headers').write_text('/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n'+('  X-Robots-Tag: noindex, nofollow\n' if preview else ''))
-(OUT/'_redirects').write_text('/admin /admin/ 301\n/studio /about 301\n/work/karbon-kreds /work-karbon-kreds 301\n/work/address12 /work-address12 301\n/work/pavilion /work-pavilion 301\n/work/talon /work-talon 301\n')
+(OUT/'_redirects').write_text('/admin /admin/ 301\n/studio /about 301\n/work/karbon-kreds /work-karbon-kreds 301\n/work/address12 /work-address12 301\n')
 print('Built',len(allpages),'pages in', 'private preview' if preview else 'production','mode.')
 
 from admin import build_admin

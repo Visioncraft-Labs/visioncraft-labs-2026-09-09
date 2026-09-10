@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "id": "pavilion.webp",
-      "label": "Pavilion",
-      "src": "images/pavilion.webp",
-      "alt": "Pavilion sports intelligence brand exploration board",
-      "caption": "Brand exploration from the project presentation. Interface concepts are exploratory.",
-      "poster": "",
-      "fit": "contain",
-      "width": 1536,
-      "height": 1024
-    },
-    {
       "id": "karbonkreds-website.jpg",
       "label": "Karbonkreds Website",
       "src": "images/karbonkreds-website.jpg",
@@ -34,22 +23,11 @@
       "height": 936
     },
     {
-      "id": "talon.webp",
-      "label": "Talon",
-      "src": "images/talon.webp",
-      "alt": "Talon Group manufacturing creative visual",
-      "caption": "AI-assisted campaign visual for Talon; not documentary factory photography.",
-      "poster": "",
-      "fit": "contain",
-      "width": 1536,
-      "height": 1024
-    },
-    {
       "id": "skincare-jar-orange-glow.jpg",
-      "label": "Skincare Jar Orange Glow",
+      "label": "Skincare Objects \u2014 Concept",
       "src": "images/skincare-jar-orange-glow.jpg",
-      "alt": "Skincare jar inside a glowing orange glass ring, AI-assisted product composition",
-      "caption": "AI-assisted creative direction",
+      "alt": "Orange-glass skincare campaign concept with illustrative packaging",
+      "caption": "Self-initiated studio concept. AI-assisted imagery; illustrative packaging, not commissioned client work.",
       "poster": "",
       "fit": "contain",
       "width": 1000,
@@ -90,10 +68,10 @@
     },
     {
       "id": "coffee-art-aesthetic.jpg",
-      "label": "Coffee Art Aesthetic",
+      "label": "Daily Ritual \u2014 Concept",
       "src": "images/coffee-art-aesthetic.jpg",
-      "alt": "Minimalist coffee cup still life with dramatic shadow composition",
-      "caption": "Lifestyle \u2014 minimalist still life",
+      "alt": "Coffee still-life concept with green cups and directional shadows",
+      "caption": "Daily Ritual \u2014 self-initiated coffee campaign concept, not commissioned client work.",
       "poster": "",
       "fit": "contain",
       "width": 736,
