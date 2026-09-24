@@ -11,3 +11,12 @@ def build_admin(root,library,origin,preview):
  (out/'config.json').write_text(json.dumps(config if enabled else {'enabled':False},indent=2))
  (out/'media.json').write_text(json.dumps({'items':list(library.items.values())},indent=2))
  (out/'connection.json').write_text(json.dumps({'enabled':enabled,'preview':preview}))
+
+
+def build_hq(root):
+ out=root/'dist/admin';out.mkdir(parents=True,exist_ok=True)
+ assets=root/'templates/admin'
+ for name in ('hq.html','hq.css','hq.js'):
+  src=assets/name
+  if not src.exists(): raise FileNotFoundError(f'Missing HQ source asset: {src}')
+  (out/name).write_text(src.read_text())

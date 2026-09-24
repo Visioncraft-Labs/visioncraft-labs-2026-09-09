@@ -151,7 +151,8 @@ for file,_ in allpages:
 (OUT/'_redirects').write_text('/admin /admin/ 301\n/studio /about 301\n/work/karbon-kreds /work-karbon-kreds 301\n/work/address12 /work-address12 301\n')
 print('Built',len(allpages),'pages in', 'private preview' if preview else 'production','mode.')
 
-from admin import build_admin
+from admin import build_admin,build_hq
 build_admin(ROOT,library,origin,preview)
+build_hq(ROOT)
 
 with (OUT/'_headers').open('a') as f:f.write('/admin/*\n  X-Robots-Tag: noindex, nofollow\n  Cache-Control: no-store\n')
