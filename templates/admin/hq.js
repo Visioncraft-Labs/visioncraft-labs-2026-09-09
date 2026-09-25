@@ -15,4 +15,6 @@ try{const stored=JSON.parse(localStorage.getItem(key)||'null');if(Array.isArray(
 boxes.forEach(x=>x.onchange=render);
 if(save)save.onclick=()=>{const values=selected();localStorage.setItem(key,JSON.stringify(values));render();save.textContent='Saved on this device';setTimeout(()=>save.textContent='Save Selection',1600)};
 render();
+const health=document.getElementById('backendHealth');
+if(health){fetch('/.netlify/functions/hq-health',{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{health.textContent=d&&d.ok?'● Online':'● Error';health.className=d&&d.ok?'ok':''}).catch(()=>{health.textContent='● Offline';health.className=''})}
 })();
