@@ -3,7 +3,7 @@ from pathlib import Path
 import json,re,html
 class MediaCollection:
  def __init__(self,root):
-  self.root=Path(root);self.items={}
+  self.root=Path(root);self.items={};self.render_count=0
   for m in json.loads((self.root/'data/media.json').read_text())['items']:
    if m['id'] in self.items:raise ValueError('Duplicate media ID: '+m['id'])
    self.validate(m);self.items[m['id']]=m
@@ -24,7 +24,9 @@ class MediaCollection:
   attrs=f'data-media-id="{e(key)}" class="{e(cls)}" width="{m["width"]}" height="{m["height"]}" style="{style}"'
   if self.is_video(m['src']):
    mime='video/webm' if m['src'].endswith('.webm') else 'video/mp4'
-   return f'<video {attrs} muted loop playsinline controls preload="none" poster="{e(m["poster"])}" aria-label="{e(m["alt"])}"><source src="{e(m["src"])}" type="{mime}"></video>'
+   self.render_count+=1
+   description=m.get('description') or m['alt'];description_id=f'media-description-{self.render_count}'
+   return f'<video {attrs} muted loop playsinline controls preload="none" poster="{e(m["poster"])}" aria-label="{e(m["alt"])}" aria-describedby="{description_id}"><source src="{e(m["src"])}" type="{mime}"><p>{e(description)} <a href="{e(m["src"])}">Open the video</a></p></video><span id="{description_id}" class="media-description">{e(description)}</span>'
   return f'<img {attrs} src="{e(m["src"])}" alt="{e(m["alt"])}" loading="{"lazy" if lazy else "eager"}" decoding="async">'
  def replace_legacy(self,s):
   def replace(m):

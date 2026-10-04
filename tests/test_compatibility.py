@@ -17,6 +17,12 @@ class Compatibility(unittest.TestCase):
   before=(self.root/'data/media.json').read_bytes();p=self.root/'update.json';p.write_text(json.dumps({'version':1,'items':[],'assets':[{'path':'../../bad.js','data':'YQ=='}]}))
   with self.assertRaises(ValueError):imp.apply(p,self.root)
   self.assertEqual(before,(self.root/'data/media.json').read_bytes())
+ def test_video_has_named_and_linked_text_alternative(self):
+  self.build();s=(self.root/'dist/index.html').read_text();self.assertIn('aria-describedby="media-description-',s);self.assertIn('A short silent studio motion study follows the coffee presentation',s)
+ def test_build_check_rejects_missing_image_alt(self):
+  self.build();p=self.root/'dist/index.html';p.write_text(p.read_text().replace('alt="KarbonKreds live website: Canadian carbon-market platform"','',1));r=subprocess.run([sys.executable,'scripts/check.py'],cwd=self.root,capture_output=True,text=True);self.assertNotEqual(r.returncode,0);self.assertIn('missing an explicit alt attribute',r.stdout)
+ def test_build_check_rejects_unnamed_video(self):
+  self.build();p=self.root/'dist/index.html';p.write_text(p.read_text().replace('aria-label="Coffee beans, ground coffee and a prepared cup in a bean-to-cup motion study."','',1));r=subprocess.run([sys.executable,'scripts/check.py'],cwd=self.root,capture_output=True,text=True);self.assertNotEqual(r.returncode,0);self.assertIn('Video is missing an accessible name',r.stdout)
  def test_production_and_private_contracts(self):
   self.build(SITE_MODE='production',NETLIFY='true',FORM_BACKEND='netlify',CMS_GITHUB_REPO='owner/repository')
   self.assertIn('data-netlify="true"',(self.root/'dist/contact.html').read_text());self.assertEqual(json.loads((self.root/'dist/admin/config.json').read_text())['backend']['repo'],'owner/repository');self.assertNotIn('thank-you',(self.root/'dist/sitemap.xml').read_text());self.assertNotIn('/admin',(self.root/'dist/sitemap.xml').read_text())
