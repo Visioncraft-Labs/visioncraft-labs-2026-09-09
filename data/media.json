@@ -104,39 +104,42 @@
       "label": "Coffee Process",
       "src": "images/coffee-process.mp4",
       "poster": "images/coffee_process_poster.jpg",
-      "alt": "coffee process",
-      "caption": "Coffee \u2014 bean to cup process",
+      "alt": "Coffee beans, ground coffee and a prepared cup in a bean-to-cup motion study.",
+      "caption": "Coffee \u2014 bean-to-cup motion study",
       "fit": "contain",
       "width": 1200,
-      "height": 1500
+      "height": 1500,
+      "description": "A short silent studio motion study follows the coffee presentation from beans through grounds to a prepared cup."
     },
     {
       "id": "cake-slice.mp4",
       "label": "Cake Slice",
       "src": "images/cake-slice.mp4",
       "poster": "images/cake_slice_poster.jpg",
-      "alt": "cake slice",
-      "caption": "",
+      "alt": "Animated cake-slice composition in a studio food presentation.",
+      "caption": "Cake slice \u2014 food motion study",
       "fit": "contain",
       "width": 1200,
-      "height": 1500
+      "height": 1500,
+      "description": "A short silent studio animation presents a cake slice as a food campaign composition."
     },
     {
       "id": "bw-poster-art.mp4",
       "label": "Bw Poster Art",
       "src": "images/bw-poster-art.mp4",
       "poster": "images/bw_poster_poster.jpg",
-      "alt": "bw poster art",
-      "caption": "",
+      "alt": "Black-and-white poster artwork presented in a short motion study.",
+      "caption": "Black-and-white poster \u2014 motion study",
       "fit": "contain",
       "width": 1200,
-      "height": 1500
+      "height": 1500,
+      "description": "A short silent studio animation presents monochrome poster artwork as a creative motion composition."
     },
     {
       "id": "karbon-map.webp",
       "label": "Karbon Map",
       "src": "images/karbon-map.webp",
-      "alt": "SEO & growth \u2014 selected studio work",
+      "alt": "Representative regional activity map from the KarbonKreds website.",
       "caption": "Representative regional activity map from the live website.",
       "poster": "",
       "fit": "contain",
