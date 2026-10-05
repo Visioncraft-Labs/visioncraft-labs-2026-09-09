@@ -3,8 +3,10 @@
   "private": true,
   "version": "2.0.0",
   "scripts": {
-    "build": "python3 scripts/build.py && python3 scripts/check.py",
-    "check": "python3 scripts/check.py"
+    "build": "python3 scripts/build.py && python3 scripts/check.py && python3 scripts/check_seo.py",
+    "check": "python3 scripts/check.py && python3 scripts/check_seo.py",
+    "refresh:trends": "python3 scripts/refresh_trends.py",
+    "refresh:opportunities": "python3 scripts/opportunities.py"
   },
   "engines": {
     "node": ">=20"

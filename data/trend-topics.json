@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "branding",
+      "label": "Brand strategy and identity",
+      "target": "/branding",
+      "aliases": ["brand strategy", "brand identity", "visual identity", "branding agency"]
+    },
+    {
+      "id": "web-design",
+      "label": "Responsive website design",
+      "target": "/web-design",
+      "aliases": ["web design", "website design", "responsive design", "website redesign"]
+    },
+    {
+      "id": "web-development",
+      "label": "Website development",
+      "target": "/web-development",
+      "aliases": ["web development", "website development", "frontend development", "frontend engineering"]
+    },
+    {
+      "id": "ui-ux-design",
+      "label": "UX and UI design",
+      "target": "/ui-ux-design",
+      "aliases": ["ux design", "ui design", "user experience design", "user interface design", "design systems"]
+    },
+    {
+      "id": "custom-software-development",
+      "label": "Custom software development",
+      "target": "/custom-software-development",
+      "aliases": ["custom software", "custom software development", "application development", "business software development"]
+    },
+    {
+      "id": "ai-automation",
+      "label": "AI and workflow automation",
+      "target": "/ai-automation",
+      "aliases": ["ai automation", "workflow automation", "business automation", "ai workflows", "ai assisted workflows"]
+    },
+    {
+      "id": "creative-content",
+      "label": "Creative content and art direction",
+      "target": "/creative-content",
+      "aliases": ["creative content", "art direction", "visual production", "content production"]
+    },
+    {
+      "id": "product-photography",
+      "label": "Product photography",
+      "target": "/product-photography",
+      "aliases": ["product photography", "product imagery", "product retouching", "ecommerce photography"]
+    },
+    {
+      "id": "seo",
+      "label": "Technical SEO and content strategy",
+      "target": "/seo",
+      "aliases": ["technical seo", "search engine optimization", "seo services", "seo agency", "seo content strategy"]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+name: Refresh service trends and project opportunities
+
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/search-trends.yml'
+      - 'scripts/refresh_trends.py'
+      - 'scripts/opportunities.py'
+      - 'data/trend-topics.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: relevant-search-trends
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Fetch and atomically validate relevant trend data
+        id: trends
+        continue-on-error: true
+        run: python3 scripts/refresh_trends.py
+      - name: Fetch fresh public freelance briefs
+        id: opportunities
+        continue-on-error: true
+        run: python3 scripts/opportunities.py
+      - name: Require at least one successful refresh
+        if: steps.trends.outcome == 'failure' && steps.opportunities.outcome == 'failure'
+        run: exit 1
+      - name: Validate the production website before publishing
+        env:
+          SITE_MODE: production
+          SITE_URL: https://visioncraft-labs.com
+        run: npm run build
+      - name: Test trend filtering and publishing contracts
+        run: python3 -m unittest discover -s tests
+      - name: Publish the validated snapshot through the connected Netlify repository
+        run: |
+          git add data/seo-trends.json data/opportunities.json
+          if git diff --cached --quiet; then
+            echo 'No snapshot change.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh validated service trend data'
+          git push origin HEAD:main
+      - name: Report any source that could not refresh
+        if: steps.trends.outcome == 'failure' || steps.opportunities.outcome == 'failure'
+        run: |
+          echo 'One source failed; its last successful snapshot was preserved. Check the failed fetch step.'
+          exit 1
