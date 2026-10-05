@@ -15,6 +15,7 @@ footer=re.search(r'<footer>.*?</footer>',original,re.S).group(0)
 footer=footer.replace('services.html#websites','web-design.html').replace('services.html#apps','custom-software-development.html').replace('services.html#ai-creative','creative-content.html').replace('services.html#ai-automation','ai-automation.html').replace('services.html#brand','branding.html')
 footer=footer.replace('work.html#karbonkreds','work-karbon-kreds.html')
 footer=footer.replace('<h4>Company</h4>','<h4>Company</h4><a href="investment.html">Project investment</a>')
+footer=footer.replace('<h4>Company</h4>','<h4>Company</h4><a href="etsy-seller-services.html">For Etsy sellers</a>')
 from urllib.parse import urlencode
 social_links=json.loads((DATA/'socials.json').read_text())
 contact=json.loads((DATA/'contact.json').read_text())
@@ -29,6 +30,8 @@ def contact_links(doc):
  return re.sub(pattern,lambda _:replacement,doc,flags=re.S)
 meta={}; allpages=[]
 from media import MediaCollection
+from seo import load_keywords, trend_links
+keywords=load_keywords(DATA/'keyword-map.json', services)
 library=MediaCollection(ROOT)
 project_media={p['slug']:(p['mediaId'],library.items[p['mediaId']]['alt'],library.items[p['mediaId']]['caption']) for p in projects}
 def img(file,alt='',lazy=True,cls=''):
@@ -67,12 +70,13 @@ home=f'''<section class="hero"><div class="wrap"><div class="hero-grid"><div cla
 <section id="selected" class="selected-work"><div class="wrap"><div class="section-head"><span class="eyebrow">Selected work</span><h2>Proof, in every pixel.</h2></div>{''.join(project_row(p,i+1) for i,p in enumerate(projects))}<a class="text-link" href="work.html">Explore all work and creative production</a></div></section>'''
 home+='''<section class="capability-section"><div class="wrap"><div class="section-head"><span class="eyebrow">Connected capabilities</span><h2>One idea.<br>Every dimension.</h2><p>Choose a focused engagement or bring us in from strategy through launch.</p></div><div class="capability-list">'''
 for i,s in enumerate(services):home+=f'<a href="{s["slug"]}.html"><span>{i+1:02}</span><h3>{E(s["name"])}</h3><small>{E(s["category"])}</small></a>'
-home+='</div></div></section>'
+home+='<a href="etsy-seller-services.html"><span>10</span><h3>Creative services for Etsy sellers</h3><small>Seller branding &amp; content</small></a>'
+home+='</div></div></section>'+trend_links(ROOT)
 home+=f'''<section class="film-feature"><div class="wrap"><div class="film-copy"><span class="eyebrow">Creative production</span><h2>Make people<br>stop. Look. Feel.</h2><p>Product imagery and short-form films, composed with a clear idea and a precise visual language.</p><a class="text-link" href="work.html#studio-gallery">Explore the visual studio</a></div><div class="film-pair"><figure class="bevel">{img('skincare-jar-orange-glow.jpg','Skincare campaign visual with orange glass art direction')}<figcaption>AI-assisted creative direction</figcaption></figure><figure class="bevel">{img('coffee-process.mp4')}<figcaption>Coffee — bean to cup process</figcaption></figure></div></div></section>'''
 home+='<section class="process-section"><div class="wrap"><span class="eyebrow">How we work</span><h2>Business before pixels.</h2><ol class="process-track">'
 for title,body in [('Understand','Get close to the business, its audience and the problem worth solving.'),('Define','Agree the direction, the scope and what success needs to mean.'),('Create','Connect identity, content and interface into a coherent experience.'),('Engineer','Build, test and refine for real screens and real use.'),('Evolve','Launch with a maintainable foundation and a clear next step.')]:home+=f'<li class="reveal"><h3>{title}</h3><p>{body}</p></li>'
 home+='</ol></div></section>'+cta()
-page('index.html','VisionCraft Labs — Branding, Digital Products, Websites & AI','VisionCraft Labs is a creative technology studio building brands, websites, software and AI-powered digital experiences for ambitious companies.',home)
+page('index.html','Branding, Web Design & AI Automation | VisionCraft Labs','VisionCraft Labs connects branding, web design, custom software and AI automation for global clients. Explore our work and discuss your next digital project.',home)
 # Work and real project pages.
 gallery=re.search(r'<section id="studio-gallery">.*?</section>',work,re.S).group(0)
 gallery=gallery.replace('<div class="section-head wide reveal" style="margin-top:80px;">','<div class="section-head wide reveal" id="motion" style="margin-top:80px;">').replace('<video autoplay muted loop playsinline','<video muted loop playsinline controls preload="none"')
@@ -94,12 +98,14 @@ for i,p in enumerate(projects):
 # Substantial service content retained from the studio content layer.
 body=hero('Capabilities','Strategy to launch.<br>Connected by design.','Branding, websites, digital products, custom software, AI automation and creative production, shaped around the business problem.')+'<section><div class="wrap capability-list">'
 for i,s in enumerate(services):body+=f'<a href="{s["slug"]}.html" id="{s["slug"]}"><span>{i+1:02}</span><div><h2>{E(s["name"])}</h2><p>{E(s["description"])}</p></div></a>'
-body+='</div></section>'+cta();page('services.html','Branding, Web Design, Software & AI Services | VisionCraft Labs','Explore VisionCraft Labs services for companies in Pakistan and internationally: strategy, identity, websites, custom software, AI and creative production.',body)
+body+='<a href="etsy-seller-services.html"><span>10</span><div><h2>Creative services for Etsy sellers</h2><p>Shop branding, listing imagery and custom digital creative assets, scoped around your products.</p></div></a>'
+body+='</div></section>'+trend_links(ROOT)+cta();page('services.html','Branding, Web Design, Software & AI Services | VisionCraft Labs','Explore branding, web design, software development, AI automation and creative production services for global clients. Plan your next project with VisionCraft Labs.',body)
 service_images={'branding':'skincare-jar-orange-glow.jpg','web-design':'karbonkreds-website.jpg','web-development':'karbonkreds-website.jpg','ui-ux-design':'address12-dashboard.jpg','custom-software-development':'address12-dashboard.jpg','ai-automation':'address12-dashboard.jpg','creative-content':'lipstick-pink-vibes.jpg','product-photography':'candle-oaalses-stone.jpg','seo':'karbon-map.webp'}
 for s in services:
+ seo=keywords['/'+s['slug']]
  p=next(p for p in projects if p['slug']==s['projects'][0]);body=hero(E(s['name']),E(s['headline']),E(s['description']))
  body+=f'<section class="service-editorial"><div class="wrap"><div class="reading"><span class="eyebrow">The business problem</span><h2>{E(s["name"])} with a clear purpose.</h2><p>{E(s["problem"])}</p></div><figure class="bevel">{img(service_images[s["slug"]],project_media[p["slug"]][1] if service_images[s["slug"]]==project_media[p["slug"]][0] else s["name"]+" — selected studio work")}<figcaption>Selected studio work. {"Address12 uses demonstration data." if service_images[s["slug"]]=="address12-dashboard.jpg" else ""}</figcaption></figure></div></section>'
- body+='<section><div class="wrap reading"><h2>What we can help you build</h2>'
+ body+='<section><div class="wrap reading"><h2>What we can help you build</h2><p>'+E(seo['intro'])+'</p>'
  for c in s['capabilities']:body+=f'<h3>{E(c["title"])}</h3><p>{E(c["body"])}</p>'
  body+='<h2>A clear process</h2><ol>'+''.join('<li>'+E(x)+'</li>' for x in s['process'])+'</ol><h2>Built for everyday use</h2><p>'+E(s['benefit'])+'</p><h3>Tools & handover</h3><p>'+E(s['technology'])+'</p><h2>Questions before you start</h2>'
  for f in s['faqs']:body+=f'<details><summary>{E(f["q"])}</summary><p>{E(f["a"])}</p></details>'
@@ -107,8 +113,12 @@ for s in services:
  for slug in s['projects']:body+=f'<a href="work-{slug}.html">{next(p["name"] for p in projects if p["slug"]==slug)} case study</a>'
  for slug in s['related']:body+=f'<a href="{slug}.html">{next(x["name"] for x in services if x["slug"]==slug)}</a>'
  body+='<a href="insight-website-redesign-checklist.html">Planning your next website</a></div></div></section>'+cta()
- extra={'@context':'https://schema.org','@type':'Service','name':s['name'],'description':s['description'],'provider':{'@id':origin+'/#organization'}}
- page(s['slug']+'.html',s['name']+' in Pakistan | VisionCraft Labs',s['description'],body,extra=extra)
+ extra={'@context':'https://schema.org','@type':'Service','name':s['name'],'description':seo['meta_description'],'provider':{'@id':origin+'/#organization'}}
+ page(s['slug']+'.html',seo['seo_title'],seo['meta_description'],body,extra=extra)
+# A focused seller package using the studio's existing creative capabilities.
+body=hero('For independent sellers','A distinctive shop.<br>A considered first impression.','Etsy shop branding, product listing images and custom digital creative assets for sellers building a clear, consistent visual identity.')
+body+='<section><div class="wrap reading"><h2>Creative services for Etsy sellers</h2><p>Bring your products, audience and references. We connect shop branding, product presentation and visual content into a practical set of assets for your Etsy shop and the channels around it.</p><h3>Shop branding and visual identity</h3><p>Logo and identity design, shop banners, color direction and reusable brand guidance help your listings feel part of one shop. Explore our <a href="branding.html">branding services</a>.</p><h3>Product listing images and editing</h3><p>Plan a consistent image sequence, styling and retouching around the actual product. Photography logistics and image accuracy are agreed before production. See our <a href="product-photography.html">product photography services</a>.</p><h3>Custom digital creative assets</h3><p>Commission campaign graphics, illustrations or edited video with defined deliverables and usage. We agree the file formats, revisions and handover at the start. Explore our <a href="creative-content.html">creative content studio</a>.</p><h3>Your website beyond the marketplace</h3><p>A brand website can give customers a clearer picture of your story, product range and contact options. Our <a href="web-design.html">web design agency</a> can shape that experience around your shop.</p><h2>Start with a useful brief</h2><p>Share your shop URL, product category, current images, required assets, timing and budget. We will review the work and propose a focused scope.</p><a class="btn btn-primary" href="contact.html?project=Etsy">Discuss your Etsy project</a><h2>Questions before you start</h2><details><summary>Can we work together remotely?</summary><p>Yes. Digital creative work can be reviewed remotely. Physical products, shoots and shipping arrangements are confirmed separately.</p></details><details><summary>Will I receive usable files?</summary><p>Deliverables, formats and usage rights are agreed in the project scope. The handover can include the approved assets and practical guidance for using them.</p></details><details><summary>Do I need to share my shop password?</summary><p>A shop link, brief and source files are sufficient for initial planning. Any access needed later is agreed during scoping.</p></details></div></section>'+cta('Let’s create your shop’s next chapter.')
+page('etsy-seller-services.html','Etsy Shop Branding & Listing Images | VisionCraft Labs','Creative services for Etsy sellers: shop branding, product listing images and custom digital assets. Share your shop and plan a focused project with VisionCraft Labs.',body)
 # Useful complete articles instead of teaser cards with dead links.
 body=hero('Studio insights','Better questions.<br>Better digital work.','Practical thinking to help you brief, commission and maintain your next brand or digital project.')+'<section><div class="wrap insight-list">'
 for i,a in enumerate(insights):
@@ -128,7 +138,8 @@ body+='''<section class="contact-section"><div class="wrap contact-grid"><aside 
 form_enabled=os.environ.get('FORM_BACKEND','draft')=='netlify' and os.environ.get('NETLIFY')=='true'
 if form_enabled:
  body=body.replace('<form id="projectForm" class="inquiry-form">','<form id="projectForm" class="inquiry-form" name="project-inquiry" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="website" data-backend="netlify"><input type="hidden" name="form-name" value="project-inquiry">')
- body=body.replace('This preview prepares an email draft in your mail app. Review it and press Send there to deliver your inquiry.','Your details will be used to respond to this project inquiry.').replace('Prepare project email','Send project inquiry')
+ body=body.replace('This preview prepares an email draft in your mail app. Review it and press Send there to deliver your inquiry.','Your details will be used to respond to this project inquiry.').replace('Prepare project email','Send project inquiry').replace('action="/thank-you.html"','action="/thank-you"')
+body=body.replace('<option>Other</option>','<option>Etsy seller creative assets</option><option>Other</option>')
 page('contact.html' ,'Start a Project | VisionCraft Labs','Discuss a website, branding, custom software, AI automation or creative project with VisionCraft Labs. Send your brief or request an Address12 demonstration.',body)
 body=hero('Project investment','A considered scope.<br>A clear investment.','Every engagement starts with the business goal, the work required and the practical constraints. An estimate follows a defined scope.')+'<section><div class="wrap reading"><h2>What shapes an estimate?</h2><p>Strategy, content, design depth, integrations, the number of distinct journeys and the support required after launch all influence the scope. Page count alone is not a useful comparison between proposals.</p><h2>Ways to work together</h2><h3>Focused projects</h3><p>A website, brand identity, software module or creative campaign with agreed deliverables, review points and handover.</p><h3>Custom software & automation</h3><p>Begin with the workflows, permissions, integrations and reliability requirements. Discovery can define a smaller first release before a longer development commitment.</p><h3>Ongoing collaboration</h3><p>SEO, content production, maintenance and product improvement can be scoped as continuing work with clear priorities and review periods.</p><h2>What to share</h2><p>Tell us your intended outcome, current assets and systems, preferred timing and an approximate budget if you have one. “Not sure yet” is a valid starting point.</p><a class="btn btn-primary" href="contact.html">Request a project estimate</a></div></section>'+cta()
 page('investment.html','Project Estimates & Investment | VisionCraft Labs','Understand how VisionCraft Labs scopes website, brand, software, AI and creative engagements. Request a project estimate based on your business goals.',body)
@@ -154,5 +165,7 @@ print('Built',len(allpages),'pages in', 'private preview' if preview else 'produ
 from admin import build_admin,build_hq
 build_admin(ROOT,library,origin,preview)
 build_hq(ROOT)
+from opportunities import build_dashboard
+build_dashboard(ROOT)
 
 with (OUT/'_headers').open('a') as f:f.write('/admin/*\n  X-Robots-Tag: noindex, nofollow\n  Cache-Control: no-store\n')

@@ -1,9 +1,10 @@
 [
   {
-    "primary": "branding agency Pakistan",
+    "primary": "branding agency",
     "secondary": [
-      "Brand strategy & identity",
-      "Brand services"
+      "brand strategy services",
+      "visual identity design",
+      "brand identity systems"
     ],
     "intent": "Commercial investigation",
     "target": "/branding",
@@ -14,13 +15,31 @@
       "/work-karbon-kreds",
       "/work-skincare-objects"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Branding Agency & Brand Identity Design | VisionCraft Labs",
+    "meta_description": "Build a recognizable brand with VisionCraft Labs. Our agency connects positioning, messaging and visual identity across websites, campaigns and presentations.",
+    "intro": "As a branding agency, we connect brand strategy with visual identity design. We create positioning, messaging and practical brand systems your team can use across digital and campaign work.",
+    "topics": [
+      {
+        "label": "Brand strategy",
+        "phrase": "brand strategy services"
+      },
+      {
+        "label": "Visual identity",
+        "phrase": "visual identity design"
+      },
+      {
+        "label": "Brand systems",
+        "phrase": "brand identity systems"
+      }
+    ]
   },
   {
-    "primary": "web design agency Pakistan",
+    "primary": "web design agency",
     "secondary": [
-      "Web design",
-      "Digital services"
+      "responsive website design",
+      "website redesign services",
+      "website strategy"
     ],
     "intent": "Commercial investigation",
     "target": "/web-design",
@@ -31,13 +50,31 @@
       "/work-karbon-kreds",
       "/work-daily-ritual"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Web Design Agency & Responsive Websites | VisionCraft Labs",
+    "meta_description": "VisionCraft Labs is a web design agency creating responsive websites with clear content, considered art direction and straightforward paths from interest to inquiry.",
+    "intro": "Our web design agency brings website strategy, responsive design and purposeful interaction together. We help visitors understand your offer, explore your work and take the next step.",
+    "topics": [
+      {
+        "label": "Responsive design",
+        "phrase": "responsive website design"
+      },
+      {
+        "label": "Website redesign",
+        "phrase": "website redesign services"
+      },
+      {
+        "label": "Website strategy",
+        "phrase": "website strategy"
+      }
+    ]
   },
   {
-    "primary": "website development company Pakistan",
+    "primary": "website development company",
     "secondary": [
-      "Web development",
-      "Technology services"
+      "custom website development",
+      "frontend development services",
+      "CMS integration"
     ],
     "intent": "Commercial investigation",
     "target": "/web-development",
@@ -48,13 +85,31 @@
       "/work-karbon-kreds",
       "/work-address12"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Website Development Company | VisionCraft Labs",
+    "meta_description": "VisionCraft Labs builds custom websites with responsive frontend engineering and CMS integrations, with performance and maintenance planned from the start.",
+    "intro": "As a website development company, we build responsive interfaces and connect content, forms and business tools. Performance, accessibility and ongoing maintenance shape the work from the start.",
+    "topics": [
+      {
+        "label": "Custom websites",
+        "phrase": "custom website development"
+      },
+      {
+        "label": "Frontend engineering",
+        "phrase": "frontend development services"
+      },
+      {
+        "label": "Content integrations",
+        "phrase": "CMS integration"
+      }
+    ]
   },
   {
-    "primary": "UI UX design agency Pakistan",
+    "primary": "UI UX design agency",
     "secondary": [
-      "UX/UI & digital products",
-      "Digital services"
+      "digital product design",
+      "interactive prototyping",
+      "interface design systems"
     ],
     "intent": "Commercial investigation",
     "target": "/ui-ux-design",
@@ -65,13 +120,31 @@
       "/work-address12",
       "/work-skincare-objects"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "UI UX Design Agency & Digital Products | VisionCraft Labs",
+    "meta_description": "VisionCraft Labs designs clear digital products through UX workflows, interactive prototypes and reusable interface systems, with a practical engineering handover.",
+    "intro": "Our UI UX design agency turns complex workflows into clear digital products. We connect user journeys, interactive prototypes and interface design systems to support thoughtful engineering handover.",
+    "topics": [
+      {
+        "label": "Product design",
+        "phrase": "digital product design"
+      },
+      {
+        "label": "Prototyping",
+        "phrase": "interactive prototyping"
+      },
+      {
+        "label": "Interface systems",
+        "phrase": "interface design systems"
+      }
+    ]
   },
   {
-    "primary": "custom software development Pakistan",
+    "primary": "custom software development",
     "secondary": [
-      "Custom software development",
-      "Technology services"
+      "business application development",
+      "workflow software development",
+      "API integration services"
     ],
     "intent": "Commercial investigation",
     "target": "/custom-software-development",
@@ -81,13 +154,31 @@
     "internal_links": [
       "/work-address12"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Custom Software Development | VisionCraft Labs",
+    "meta_description": "Custom software development from VisionCraft Labs connects business workflows, applications and integrations, with clear requirements and a maintenance plan.",
+    "intro": "Our custom software development starts with the way your business works. We build applications, operational tools and integrations around agreed workflows, data requirements and deployment needs.",
+    "topics": [
+      {
+        "label": "Business applications",
+        "phrase": "business application development"
+      },
+      {
+        "label": "Workflow tools",
+        "phrase": "workflow software development"
+      },
+      {
+        "label": "API integrations",
+        "phrase": "API integration services"
+      }
+    ]
   },
   {
-    "primary": "AI automation agency",
+    "primary": "AI automation services",
     "secondary": [
-      "AI & automation",
-      "Intelligence services"
+      "business workflow automation",
+      "AI workflow integration",
+      "process automation services"
     ],
     "intent": "Commercial investigation",
     "target": "/ai-automation",
@@ -97,13 +188,31 @@
     "internal_links": [
       "/work-address12"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "AI Automation Services & Workflows | VisionCraft Labs",
+    "meta_description": "Explore AI automation services with VisionCraft Labs: workflow assessment, connected tools and AI-assisted systems built around defined tasks and human review.",
+    "intro": "Our AI automation services focus on defined business tasks and practical workflow improvements. We connect existing tools, evaluate AI-assisted steps and plan human review, retries and fallback behavior.",
+    "topics": [
+      {
+        "label": "Workflow automation",
+        "phrase": "business workflow automation"
+      },
+      {
+        "label": "AI integrations",
+        "phrase": "AI workflow integration"
+      },
+      {
+        "label": "Process automation",
+        "phrase": "process automation services"
+      }
+    ]
   },
   {
     "primary": "creative content studio",
     "secondary": [
-      "Creative content",
-      "Content services"
+      "creative art direction",
+      "visual content production",
+      "brand content systems"
     ],
     "intent": "Commercial investigation",
     "target": "/creative-content",
@@ -114,13 +223,31 @@
       "/work-daily-ritual",
       "/work-skincare-objects"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Creative Content Studio & Art Direction | VisionCraft Labs",
+    "meta_description": "VisionCraft Labs is a creative content studio for art direction, visual production and content systems across brand campaigns, websites and digital channels.",
+    "intro": "Our creative content studio connects art direction, visual production and repeatable brand content systems. We develop campaign and website assets around your audience, channels and communication goals.",
+    "topics": [
+      {
+        "label": "Art direction",
+        "phrase": "creative art direction"
+      },
+      {
+        "label": "Visual production",
+        "phrase": "visual content production"
+      },
+      {
+        "label": "Content systems",
+        "phrase": "brand content systems"
+      }
+    ]
   },
   {
-    "primary": "product photography Pakistan",
+    "primary": "product photography services",
     "secondary": [
-      "Product photography",
-      "Content services"
+      "product image retouching",
+      "ecommerce product photography",
+      "product art direction"
     ],
     "intent": "Commercial investigation",
     "target": "/product-photography",
@@ -130,13 +257,31 @@
     "internal_links": [
       "/work-daily-ritual"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Product Photography Services | VisionCraft Labs",
+    "meta_description": "Product photography services from VisionCraft Labs bring shoot direction, styling and consistent retouching to imagery for websites, commerce and campaigns.",
+    "intro": "Our product photography services bring shoot direction, product presentation and retouching into one considered image system. We plan each brief around product accuracy, brand direction and the channels where the images will appear.",
+    "topics": [
+      {
+        "label": "Product retouching",
+        "phrase": "product image retouching"
+      },
+      {
+        "label": "Commerce imagery",
+        "phrase": "ecommerce product photography"
+      },
+      {
+        "label": "Shoot direction",
+        "phrase": "product art direction"
+      }
+    ]
   },
   {
-    "primary": "SEO agency Pakistan",
+    "primary": "technical SEO services",
     "secondary": [
-      "SEO & growth",
-      "Growth services"
+      "website SEO audit",
+      "SEO content strategy",
+      "website crawlability"
     ],
     "intent": "Commercial investigation",
     "target": "/seo",
@@ -146,6 +291,23 @@
     "internal_links": [
       "/work-karbon-kreds"
     ],
-    "validation": "Service-intent seed; search volume, difficulty and ranking not measured. Validate with Search Console and a keyword dataset before geographic expansion."
+    "validation": "Global service-intent seed based on the services described on this website; search volume, difficulty and ranking have not been measured. Validate performance with Search Console and a keyword dataset when available.",
+    "seo_title": "Technical SEO Services & Content Strategy | VisionCraft Labs",
+    "meta_description": "VisionCraft Labs offers technical SEO services, content strategy and website audits covering crawlability, metadata and search intent, with measurement priorities.",
+    "intro": "Our technical SEO services connect crawlability, content architecture and useful customer journeys. We review the website and available search data to prioritize technical fixes, page relevance and measurement.",
+    "topics": [
+      {
+        "label": "SEO audits",
+        "phrase": "website SEO audit"
+      },
+      {
+        "label": "Content strategy",
+        "phrase": "SEO content strategy"
+      },
+      {
+        "label": "Crawlability",
+        "phrase": "website crawlability"
+      }
+    ]
   }
 ]

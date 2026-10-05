@@ -19,4 +19,6 @@ def build_hq(root):
  for name in ('hq.html','hq.css','hq.js'):
   src=assets/name
   if not src.exists(): raise FileNotFoundError(f'Missing HQ source asset: {src}')
-  (out/name).write_text(src.read_text())
+  content=src.read_text()
+  if name=='hq.html':content=content.replace('<a href="#">Leads</a>','<a href="opportunities.html">Project opportunities</a>')
+  (out/name).write_text(content)

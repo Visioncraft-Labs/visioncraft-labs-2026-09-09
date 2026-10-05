@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "checked_at": "2026-10-04T23:05:47Z",
+  "source": "Google Trends RSS",
+  "markets": [
+    "US",
+    "GB",
+    "CA",
+    "AU"
+  ],
+  "status": "no_relevant_trends",
+  "topics": []
+}

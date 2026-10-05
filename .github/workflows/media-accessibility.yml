@@ -1,4 +1,4 @@
-name: Media accessibility
+name: Website accessibility and SEO
 on:
   push:
   pull_request:
@@ -15,5 +15,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-      - run: npm run build
+      - name: Check private preview output
+        run: npm run build
+      - name: Check public production output
+        env:
+          SITE_MODE: production
+          SITE_URL: https://visioncraft-labs.com
+        run: npm run build
       - run: python3 -m unittest discover -s tests

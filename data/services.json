@@ -51,7 +51,7 @@
       "creative-content"
     ],
     "context": "branding",
-    "keyword": "branding agency Pakistan"
+    "keyword": "branding agency"
   },
   {
     "slug": "web-design",
@@ -92,8 +92,8 @@
         "a": "Yes. We review existing content, URLs, assets and search visibility before planning the replacement and redirects."
       },
       {
-        "q": "Do you work with businesses in Pakistan?",
-        "a": "We can discuss projects for businesses in Pakistan and internationally. Scope, communication and handover are agreed around each engagement."
+        "q": "Do you work with clients internationally?",
+        "a": "We work with clients across markets. Scope, communication, time zones and handover are agreed around each engagement."
       },
       {
         "q": "How is the price determined?",
@@ -110,7 +110,7 @@
       "seo"
     ],
     "context": "website",
-    "keyword": "web design agency Pakistan"
+    "keyword": "web design agency"
   },
   {
     "slug": "web-development",
@@ -165,7 +165,7 @@
       "seo"
     ],
     "context": "website",
-    "keyword": "website development company Pakistan"
+    "keyword": "website development company"
   },
   {
     "slug": "ui-ux-design",
@@ -219,7 +219,7 @@
       "web-design"
     ],
     "context": "software",
-    "keyword": "UI UX design agency Pakistan"
+    "keyword": "UI UX design agency"
   },
   {
     "slug": "custom-software-development",
@@ -273,7 +273,7 @@
       "web-development"
     ],
     "context": "software",
-    "keyword": "custom software development Pakistan"
+    "keyword": "custom software development"
   },
   {
     "slug": "ai-automation",
@@ -413,7 +413,7 @@
     "technology": "Production and editing methods depend on the brief. Photography, retouching and AI-assisted concepts are identified separately so clients know what they are approving.",
     "faqs": [
       {
-        "q": "Can you photograph products in Pakistan?",
+        "q": "How do you arrange product photography across locations?",
         "a": "Production location, product handling and logistics are confirmed during scoping. Contact us with your product type, quantity and required usage."
       },
       {
@@ -433,7 +433,7 @@
       "branding"
     ],
     "context": "general",
-    "keyword": "product photography Pakistan"
+    "keyword": "product photography"
   },
   {
     "slug": "seo",
@@ -486,6 +486,6 @@
       "web-development"
     ],
     "context": "website",
-    "keyword": "SEO agency Pakistan"
+    "keyword": "SEO agency"
   }
 ]
