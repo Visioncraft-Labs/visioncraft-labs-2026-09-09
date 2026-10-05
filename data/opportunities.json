@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_at": "2026-10-05T08:07:30.285413Z",
+  "checked_at": "2026-10-05T08:14:29.029853Z",
   "source": "https://www.freelancer.com/api/projects/0.1/projects/active/",
   "queries": [
     "Etsy",
@@ -69,6 +69,18 @@
       ]
     },
     {
+      "id": 40750666,
+      "title": "Mobile Game Livestream Channel Setup",
+      "summary": "I’m ready to launch a channel that’s all about live-streaming mobile games, and I’d like an experienced hand to guide me from blank profile to first broadcast. The core of the channel will be real-time streams of Action/Adventure, Puzzle/Strategy, Simulation/Role-Playing and even",
+      "posted_at": "2026-10-05T08:12:39Z",
+      "url": "https://www.freelancer.com/projects/40750666",
+      "source": "Freelancer",
+      "matches": [
+        "branding",
+        "video editing"
+      ]
+    },
+    {
       "id": 40750632,
       "title": "Create Aggressive Personal Video Reel",
       "summary": "I need a video reel created from my provided photos and videos for personal use. The style I'm looking for is aggressive, and I have specific music tracks that I want included in the reel. The ideal freelancer should have experience in video editing, be skilled in creating dynami",
@@ -88,17 +100,6 @@
       "source": "Freelancer",
       "matches": [
         "video editing"
-      ]
-    },
-    {
-      "id": 40750630,
-      "title": "Full-Stack ERP System for Jewellery Store",
-      "summary": "Title: - Jewellery Shop ERP: Ready-to-Deploy Billing, Inventory, and GST Management Software Short Summary: - A complete, ready-to-use ERP system designed specifically for retail jewellery businesses. Streamline per-piece stock tracking, automated GST invoicing, old gold exchange",
-      "posted_at": "2026-10-05T07:52:06Z",
-      "url": "https://www.freelancer.com/projects/40750630",
-      "source": "Freelancer",
-      "matches": [
-        "web design"
       ]
     },
     {
@@ -845,17 +846,6 @@
       ]
     },
     {
-      "id": 40749064,
-      "title": "School E-Learning Platform Build",
-      "summary": "I plan to launch a web-based learning platform for Classes 1-10 that lets students study each chapter at their own pace. The two non-negotiables are: • clear, chapter-wise video lessons that stream smoothly, and • a personal progress dashboard that shows completion and test score",
-      "posted_at": "2026-10-04T08:12:22Z",
-      "url": "https://www.freelancer.com/projects/40749064",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
       "id": 40748890,
       "title": "High-Detail STL Files for Artistic Model",
       "summary": "I'm seeking a skilled 3D modeler to create high-detail STL files for an artistic prototype. The model will be used for silicone mold SLA 3D printing. Requirements: - Create STL files for an artistic model - High detail with intricate features Ideal skills and experience: - Profic",
@@ -1114,6 +1104,17 @@
       "summary": "I'm looking for a talented 3D animator to bring a character to life for a 30-second video. Requirements: - Realistic animation style - Character performing complex stunts and actions - Indoor scene setting Ideal Skills and Experience: - Proficiency in 3D animation software (e.g.,",
       "posted_at": "2026-10-01T15:44:59Z",
       "url": "https://www.freelancer.com/projects/40744693",
+      "source": "Freelancer",
+      "matches": [
+        "Blender"
+      ]
+    },
+    {
+      "id": 40744688,
+      "title": "Articulated Snow Crab 3D Print",
+      "summary": "I need a 3D-printable model of a butchered snow crab section: the shoulder (body portion, carapace removed) with the claw and four walking legs attached. The prints will be used as physical test samples for handling and packaging trials, so I'll be printing many copies that get h",
+      "posted_at": "2026-10-01T15:41:31Z",
+      "url": "https://www.freelancer.com/projects/40744688",
       "source": "Freelancer",
       "matches": [
         "Blender"
