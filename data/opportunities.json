@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_at": "2026-10-12T16:47:50.600738Z",
+  "checked_at": "2026-10-13T15:07:16.808718Z",
   "source": "https://www.freelancer.com/api/projects/0.1/projects/active/",
   "queries": [
     "Etsy",
@@ -21,8 +21,7 @@
       "url": "https://www.freelancer.com/projects/40763397",
       "source": "Freelancer",
       "matches": [
-        "Etsy",
-        "branding"
+        "Etsy"
       ]
     },
     {
@@ -92,77 +91,79 @@
       ]
     },
     {
-      "id": 40751768,
-      "title": "Vintage-Inspired Etsy Logo Design",
-      "summary": "I'm seeking a talented designer to create a unique and vibrant vintage-style logo for my Etsy business. The design must incorporate buttons as a key element. Requirements: - Vintage art style - Use of bright and vibrant colors - Inclusion of buttons in the design - Original artwo",
-      "posted_at": "2026-10-05T18:58:22Z",
-      "url": "https://www.freelancer.com/projects/40751768",
+      "id": 40765783,
+      "title": "Replit Project Enhancement Specialist Needed",
+      "summary": "I have a live project already running on Replit and I want to take it to the next level rather than start from scratch. To make that happen, I need someone who understands Replit inside-out—everything from its real-time collaboration space to the built-in Git-style version contro",
+      "posted_at": "2026-10-13T15:05:21Z",
+      "url": "https://www.freelancer.com/projects/40765783",
       "source": "Freelancer",
       "matches": [
-        "Etsy"
+        "AI automation"
       ]
     },
     {
-      "id": 40764120,
-      "title": "WooCommerce Electronics Store Setup",
-      "summary": "I’m launching NOIR, an online shop dedicated to electronics, and I need a full WooCommerce build on WordPress. The store will exclusively list phones, laptops, peripherals, and similar tech, so every theme tweak, menu, and filter you create should feel tailored to gadget-hunters.",
-      "posted_at": "2026-10-12T16:44:59Z",
-      "url": "https://www.freelancer.com/projects/40764120",
+      "id": 40765777,
+      "title": "Short Film Edit And AI Score",
+      "summary": "I have shot a short film and now need it shaped into its final form. All camera takes are ready; I simply need a clean, engaging edit with basic cuts and smooth transitions. No colour work or heavy VFX are required—just confident pacing, rhythm, and continuity in Adobe Premiere P",
+      "posted_at": "2026-10-13T15:01:11Z",
+      "url": "https://www.freelancer.com/projects/40765777",
       "source": "Freelancer",
       "matches": [
-        "web design"
+        "video editing"
       ]
     },
     {
-      "id": 40764118,
-      "title": "Site vitrine professionnel en ligne",
-      "summary": "Je cherche un(e) expert(e) capable de me livrer un site vitrine moderne et responsive pour établir clairement ma présence en ligne. Objectif – Mettre en avant mon activité et inspirer confiance grâce à un design soigné. Sections indispensables 1. À propos 2. Services 3. Contact (",
-      "posted_at": "2026-10-12T16:44:06Z",
-      "url": "https://www.freelancer.com/projects/40764118",
+      "id": 40765748,
+      "title": "X League Team: Marketing, Leadership, QA & Development Roles",
+      "summary": "Build the X League Team: Marketing, Leadership, Quality Assurance & Development Roles X League is a growing online motorsport competition running on Discord and a custom-built web platform. We're assembling a team of professionals to fill key roles as we scale. We're less focused",
+      "posted_at": "2026-10-13T14:39:28Z",
+      "url": "https://www.freelancer.com/projects/40765748",
       "source": "Freelancer",
       "matches": [
-        "web design"
+        "web design",
+        "branding",
+        "video editing"
       ]
     },
     {
-      "id": 40764105,
-      "title": "Modernize Existing Product Brochure Design",
-      "summary": "We are looking for an experienced graphic designer to help us modernise and improve our existing product brochure. We are a UK-based LED lighting company specialising in lighting solutions for agricultural, construction and other heavy machinery. We currently have an A5 portrait ",
-      "posted_at": "2026-10-12T16:39:19Z",
-      "url": "https://www.freelancer.com/projects/40764105",
-      "source": "Freelancer",
-      "matches": [
-        "product photography"
-      ]
-    },
-    {
-      "id": 40764101,
-      "title": "Colorful Stone Story Marketing Videos",
-      "summary": "I’m launching a campaign that uses the natural beauty of stones to communicate brand values—each color carries its own narrative and call-to-action. I need a creative partner who can craft a series of mixed-media videos that seamlessly blend short live-action shots of the stones ",
-      "posted_at": "2026-10-12T16:30:38Z",
-      "url": "https://www.freelancer.com/projects/40764101",
+      "id": 40765744,
+      "title": "Desarrollo Web a Medida",
+      "summary": "Necesito crear un sitio web funcional y bien estructurado, enfocado en “Desarrollo web”. Aún no he definido la plataforma ni el tipo exacto de sitio (e-commerce, blog o corporativo), por lo que agradeceré tu asesoría para elegir la opción más conveniente según objetivos, plazos y",
+      "posted_at": "2026-10-13T14:38:00Z",
+      "url": "https://www.freelancer.com/projects/40765744",
       "source": "Freelancer",
       "matches": [
         "web design"
       ]
     },
     {
-      "id": 40764099,
-      "title": "Office Photo & Plan Update",
-      "summary": "I need the building photo that appears on my current PDF flyer altered and the accompanying floor plans redrawn to reflect our new concept. Photo work • Take the existing front-elevation image and extend it by adding a garage wing inside the ground floor, on the right-hand side. ",
-      "posted_at": "2026-10-12T16:27:50Z",
-      "url": "https://www.freelancer.com/projects/40764099",
+      "id": 40765731,
+      "title": "Minimalist Website Redesign",
+      "summary": "Our current site functions well, yet it looks dated. I need a full visual overhaul that keeps the existing content and back-end untouched while giving every page a clean, contemporary, minimalist appearance that feels effortless on desktop, tablet, and mobile. What I expect • A c",
+      "posted_at": "2026-10-13T14:31:38Z",
+      "url": "https://www.freelancer.com/projects/40765731",
       "source": "Freelancer",
       "matches": [
         "web design"
       ]
     },
     {
-      "id": 40764086,
-      "title": "Supply Chain Software MVP Development",
-      "summary": "I'm looking for a skilled full stack developer to create a Minimum Viable Product (MVP) for a supply chain solutions company. This project is for starting a new enterprise and is crucial for our business launch. The software will have four user interfaces: - Admin Dashboard - Sup",
-      "posted_at": "2026-10-12T16:18:16Z",
-      "url": "https://www.freelancer.com/projects/40764086",
+      "id": 40765726,
+      "title": "Bold Community Video Submission Site",
+      "summary": "I need a bold, vibrant site where anyone can upload a short video (under 60 seconds) and tag it with location, date-time, and a quick caption. Contributors should be able to register with a classic email / password flow or jump straight in through their social accounts—Facebook, ",
+      "posted_at": "2026-10-13T14:30:07Z",
+      "url": "https://www.freelancer.com/projects/40765726",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765727,
+      "title": "AI-Optimised Website Rebuild",
+      "summary": "I’m redesigning www.arise.com.sg from the ground up and want every decision to serve one clear goal: bring in more traffic from both businesses and individual learners. To make that happen, I’ll rely on AI-driven keyword research, on-page copy generation and structured data so th",
+      "posted_at": "2026-10-13T14:29:53Z",
+      "url": "https://www.freelancer.com/projects/40765727",
       "source": "Freelancer",
       "matches": [
         "web design",
@@ -170,78 +171,110 @@
       ]
     },
     {
-      "id": 40764063,
-      "title": "Cookie Cockpit Ordering Website",
-      "summary": "I need a polished, mobile-friendly website that lets Cookie Cockpit Bakery customers browse our cookies, add them to a cart, and place orders online with secure payment. The site should open with bright, appetising product photography, flow smoothly into a simple catalogue, and f",
-      "posted_at": "2026-10-12T16:08:17Z",
-      "url": "https://www.freelancer.com/projects/40764063",
-      "source": "Freelancer",
-      "matches": [
-        "web design",
-        "product photography"
-      ]
-    },
-    {
-      "id": 40764069,
-      "title": "Private Blockchain Developer — Hyperledger Fabric",
-      "summary": "Private Blockchain Developer — Hyperledger Fabric We are seeking an experienced Blockchain Developer to design, develop, and deploy a secure, production-ready private/permissioned blockchain network using Hyperledger Fabric. The ideal candidate must have hands-on experience build",
-      "posted_at": "2026-10-12T16:07:02Z",
-      "url": "https://www.freelancer.com/projects/40764069",
-      "source": "Freelancer",
-      "matches": [
-        "web design"
-      ]
-    },
-    {
-      "id": 40764072,
-      "title": "Simple Shopify Store Setup",
-      "summary": "I’m ready to launch a very small line of car fresheners—fewer than a dozen products once variants are counted—and I want them live on Shopify quickly. I’ll handle the platform subscription and any ongoing Shopify fees myself; the project budget for your work is capped at US $50, ",
-      "posted_at": "2026-10-12T16:06:02Z",
-      "url": "https://www.freelancer.com/projects/40764072",
-      "source": "Freelancer",
-      "matches": [
-        "web design"
-      ]
-    },
-    {
-      "id": 40764059,
-      "title": "Retrieve Security And Bodycam Footage",
-      "summary": "I need complete copies of two separate video sources—the external security recordings from a specific gas station and the corresponding police body-worn camera footage from the incident that took place there. I currently hold no direct login credentials or physical access to eith",
-      "posted_at": "2026-10-12T15:53:58Z",
-      "url": "https://www.freelancer.com/projects/40764059",
+      "id": 40765717,
+      "title": "AI Dentist Instagram Video Series",
+      "summary": "I have ten concise scripts (around 30 seconds each) that explain everyday dental topics, and I want them turned into scroll-stopping Instagram Reels. Each clip must feature an AI-generated dentist delivering the script, supported by clean motion graphics, captions, and polished e",
+      "posted_at": "2026-10-13T14:23:22Z",
+      "url": "https://www.freelancer.com/projects/40765717",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40764052,
-      "title": "Custom Invoicing & Database Software",
-      "summary": "I’m replacing an ageing in-house tool that stores all client records and produces our invoices. I can walk you through the current system on a live demo or video recording so you see exactly how it works today and what pain points we need to fix. The core purpose of the rebuild i",
-      "posted_at": "2026-10-12T15:49:53Z",
-      "url": "https://www.freelancer.com/projects/40764052",
+      "id": 40765713,
+      "title": "Standup Reel Editing",
+      "summary": "I need engaging 30-second reel clips from a full-length standup video. Requirements: - Edit out background people - Add humorous, trending hooking captions - Format for Instagram and YouTube Shorts Ideal skills and experience: - Video editing expertise - Familiarity with trending",
+      "posted_at": "2026-10-13T14:19:27Z",
+      "url": "https://www.freelancer.com/projects/40765713",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765707,
+      "title": "WordPress Site Revamp: Direct Booking & Mart",
+      "summary": "Title: Redesign & Upgrade Existing WordPress Site: Direct Booking Engine + Organic Mart (Fixed Budget: ₹4,000 - ₹5,000 INR) Description: We have an active WordPress website running on Hostinger with Elementor installed: Website: chaukhambagroup.com Location: Ransi, Ukhimath, Rudr",
+      "posted_at": "2026-10-13T14:11:22Z",
+      "url": "https://www.freelancer.com/projects/40765707",
       "source": "Freelancer",
       "matches": [
         "UI UX"
       ]
     },
     {
-      "id": 40764047,
-      "title": "Live Action Event Promo Graphics",
-      "summary": "I’m preparing an upcoming artist showcase and need a short, high-energy motion graphic that will serve as the main promotional piece. The vibe I’m after is a live-action mix: think quick edits of real performance footage blended with dynamic text and tasteful graphic overlays. Co",
-      "posted_at": "2026-10-12T15:44:33Z",
-      "url": "https://www.freelancer.com/projects/40764047",
+      "id": 40765701,
+      "title": "Build MQTT + SQLite + Hadoop Sales Data Pipeline (Proof of Concept, 5 Days)",
+      "summary": "PROJECT OVERVIEW We need a small, working proof of concept that collects retail sales transactions over MQTT, stores them locally in SQLite, loads them into Hadoop (HDFS + Hive) and produces basic sales reports. Everything must run on one machine with Docker so we can demo it and",
+      "posted_at": "2026-10-13T14:08:42Z",
+      "url": "https://www.freelancer.com/projects/40765701",
+      "source": "Freelancer",
+      "matches": [
+        "web design"
+      ]
+    },
+    {
+      "id": 40765700,
+      "title": "Reels & Shorts Video Editing",
+      "summary": "I’m building a steady stream of bite-sized content for both Instagram Reels and YouTube Shorts and need a creative editor who can keep pace with current trends. Every clip must feel energetic, scroll-stopping, and share-worthy. Here’s what the job looks like: • You’ll receive ver",
+      "posted_at": "2026-10-13T14:08:17Z",
+      "url": "https://www.freelancer.com/projects/40765700",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40764038,
-      "title": "Instagram Game Content Creator",
-      "summary": "I need fresh, engaging game content that I can post consistently on Instagram. I’m focusing on two main formats: • Gameplay videos that capture exciting in-game moments, edited into attention-grabbing short clips or Reels. • Tutorials and guides that clearly explain mechanics, ti",
-      "posted_at": "2026-10-12T15:36:47Z",
-      "url": "https://www.freelancer.com/projects/40764038",
+      "id": 40765698,
+      "title": "Website Enhancement and Optimization Project",
+      "summary": "My website does the job today, but it feels a step behind in both performance and user experience. I want to elevate it—cleaner code, faster load times, and a more intuitive layout across desktop and mobile. Key areas I need addressed: • Front-end refresh so the visual design loo",
+      "posted_at": "2026-10-13T14:06:15Z",
+      "url": "https://www.freelancer.com/projects/40765698",
+      "source": "Freelancer",
+      "matches": [
+        "web design"
+      ]
+    },
+    {
+      "id": 40765677,
+      "title": "Contenidos Bricolaje y Moto - 13/10/2026 09:51 EDT",
+      "summary": "Necesito a alguien que pueda idear, producir y validar contenido práctico sobre bricolaje, mantenimiento de motos y automoción. El trabajo combina: • Artículos y guías escritas que describan cada procedimiento con lenguaje claro y orden lógico. • Fotografías paso a paso que ilust",
+      "posted_at": "2026-10-13T14:04:24Z",
+      "url": "https://www.freelancer.com/projects/40765677",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765689,
+      "title": "Restaurant Ordering Platform Development -- 2",
+      "summary": "I’m building a full-stack platform that lets our customers place online orders for delivery from any device. The same site has to feel seamless on phones, tablets, laptops, and large desktop screens, so responsive design (or a well-tuned mobile-first approach) is essential. Core ",
+      "posted_at": "2026-10-13T13:59:01Z",
+      "url": "https://www.freelancer.com/projects/40765689",
+      "source": "Freelancer",
+      "matches": [
+        "web design"
+      ]
+    },
+    {
+      "id": 40765687,
+      "title": "Vibrant Brochure Design Needed",
+      "summary": "I’m looking for a talented graphic designer to create a bright and colorful brochure that instantly grabs attention and communicates information clearly. I’ll supply the copy, but images will be provided by freelancer, and any brand assets you may need; what I need from you is th",
+      "posted_at": "2026-10-13T13:58:26Z",
+      "url": "https://www.freelancer.com/projects/40765687",
+      "source": "Freelancer",
+      "matches": [
+        "web design"
+      ]
+    },
+    {
+      "id": 40765682,
+      "title": "Cinematic Facts Video Editor",
+      "summary": "I run a fast-growing YouTube channel built around curious facts that don’t sit neatly in just history, science, or pop culture. Each episode is a whirlwind of information, but what truly keeps viewers glued is how those facts are presented. I need an editor who can take an ordina",
+      "posted_at": "2026-10-13T13:54:10Z",
+      "url": "https://www.freelancer.com/projects/40765682",
       "source": "Freelancer",
       "matches": [
         "branding",
@@ -249,234 +282,689 @@
       ]
     },
     {
-      "id": 40764034,
-      "title": "Event Highlight Reel Editing",
-      "summary": "I have raw footage from a recent event and need it shaped into an engaging highlight reel. The footage already captures the key moments; what I’m missing is a talented editor who can weave everything together, add energy, and layer in the voice-over I’ll supply. Here’s what I’m a",
-      "posted_at": "2026-10-12T15:32:58Z",
-      "url": "https://www.freelancer.com/projects/40764034",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40763698,
-      "title": "Social-Media Video Effects Edit",
-      "summary": "I have raw clips that are almost ready for Instagram and TikTok, but they still need that extra spark. Your task is to cut them together and layer in modern effects and seamless transitions so the final piece instantly hooks viewers and keeps the pace lively. Footage length is sh",
-      "posted_at": "2026-10-12T15:29:48Z",
-      "url": "https://www.freelancer.com/projects/40763698",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40764023,
-      "title": "AI eClinicalWorks Patient Data Plugin",
-      "summary": "I need a developer who can build a lightweight API-level plugin that takes the personal information from our existing manual entry forms and pushes it directly into the patient-record module of eClinicalWorks. The goal is to eliminate hand-keying while keeping every step HIPAA co",
-      "posted_at": "2026-10-12T15:25:47Z",
-      "url": "https://www.freelancer.com/projects/40764023",
-      "source": "Freelancer",
-      "matches": [
-        "AI automation"
-      ]
-    },
-    {
-      "id": 40764019,
-      "title": "Professional Website & PPT Profile",
-      "summary": "I’m putting together a polished, professional company profile that will live in two formats—our corporate website and a PowerPoint deck for client presentations. The narrative must clearly showcase our history and the full scope of services we provide, written in a confident, aut",
-      "posted_at": "2026-10-12T15:22:40Z",
-      "url": "https://www.freelancer.com/projects/40764019",
+      "id": 40765659,
+      "title": "Mother-Daughter B&W Portraits",
+      "summary": "Four mother & daughter black and white portraits Please create four black and white artworks of mother and daughter, each clearly representing one of four ethnicities; Far Eastern, Asian Sub-continent, African and Caucasian. To complete this project, you will need to be skilled a",
+      "posted_at": "2026-10-13T13:40:32Z",
+      "url": "https://www.freelancer.com/projects/40765659",
       "source": "Freelancer",
       "matches": [
         "web design"
       ]
     },
     {
-      "id": 40764008,
-      "title": "Website Copywriting Specialist Needed",
-      "summary": "I need persuasive, well-structured copy for my website that speaks directly to my target audience and encourages them to take action. The tone must reflect my brand personality while remaining clear, concise, and SEO-friendly. Scope of work • Craft engaging copy for each main pag",
-      "posted_at": "2026-10-12T15:18:47Z",
-      "url": "https://www.freelancer.com/projects/40764008",
+      "id": 40765652,
+      "title": "Private Blockchain Developer — Hyperledger Fabric",
+      "summary": "Private Blockchain Developer — Hyperledger Fabric We are seeking an experienced Blockchain Developer to design, develop, and deploy a secure, production-ready private/permissioned blockchain network using Hyperledger Fabric. The ideal candidate must have hands-on experience build",
+      "posted_at": "2026-10-13T13:34:11Z",
+      "url": "https://www.freelancer.com/projects/40765652",
       "source": "Freelancer",
       "matches": [
         "web design"
       ]
     },
     {
-      "id": 40764000,
-      "title": "Gamified Government Exam Prep Portal",
-      "summary": "UI/UX Design Brief Project Vision We want to become India's most engaging portal for government job aspirants. The primary focus is delivering the latest updates on Government Jobs, Exams, Schemes, Results, Admit Cards, Answer Keys, Syllabus, and Admissions. The secondary focus i",
-      "posted_at": "2026-10-12T15:13:38Z",
-      "url": "https://www.freelancer.com/projects/40764000",
+      "id": 40765648,
+      "title": "TikTok Company Culture Ads",
+      "summary": "I want a steady stream of short-form videos published directly to our TikTok account that raise brand awareness by showcasing our company culture. Every clip should feel native to the platform—quick cuts, trending sounds, on-screen text—while giving viewers an authentic look at o",
+      "posted_at": "2026-10-13T13:29:47Z",
+      "url": "https://www.freelancer.com/projects/40765648",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765644,
+      "title": "High-End 3D Architectural Renders",
+      "summary": "I have a mix of residential and commercial projects reaching their final-presentation stage and I now need polished, photorealistic material to secure approvals and investor buy-in. All design work is complete; what I’m missing are compelling visuals and clean CAD deliverables th",
+      "posted_at": "2026-10-13T13:25:49Z",
+      "url": "https://www.freelancer.com/projects/40765644",
+      "source": "Freelancer",
+      "matches": [
+        "web design"
+      ]
+    },
+    {
+      "id": 40765623,
+      "title": "30-60s Promotional Video Edit",
+      "summary": "I have raw footage, a concise script and brand assets ready to go—I just need a talented editor to transform them into a high-energy promotional spot that runs between 30 and 60 seconds. The finished piece will be pushed on social channels, so it has to capture attention fast, te",
+      "posted_at": "2026-10-13T13:24:18Z",
+      "url": "https://www.freelancer.com/projects/40765623",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765628,
+      "title": "Modern Minimalistic Android App UI/UX",
+      "summary": "We’re looking for a UI/UX Product Designer to help us build a modern, minimal, and premium product experience from the ground up. What you’ll work on: * Create intuitive user journeys for Web, Android, and iOS * Simplify complex workflows into seamless, easy-to-use experiences * ",
+      "posted_at": "2026-10-13T13:15:27Z",
+      "url": "https://www.freelancer.com/projects/40765628",
       "source": "Freelancer",
       "matches": [
         "UI UX"
       ]
     },
     {
-      "id": 40763972,
-      "title": "UK & AU Health-Beauty Ecommerce",
-      "summary": "I’m ready to launch an online store that speaks directly to customers in both the United Kingdom and Australia, focused exclusively on health and beauty products. I need a full-featured e-commerce website built from the ground up—design, development, and smooth deployment include",
-      "posted_at": "2026-10-12T14:59:48Z",
-      "url": "https://www.freelancer.com/projects/40763972",
-      "source": "Freelancer",
-      "matches": [
-        "web design"
-      ]
-    },
-    {
-      "id": 40763892,
-      "title": "READ CAREFULLY - COMMISSION ONLY - AI Automation Company Seeks B2B Lead Generation & Sales Partner | $2,000+ Per Client",
-      "summary": "# AI Automation Company Seeks B2B Lead Generation & Sales Partner | $2,000+ Per Client **Project Budget: $10,000 – $20,000 USD** **TELEPHONED PRO | B2B LEAD GENERATION & CLIENT ACQUISITION PARTNER** ### ABOUT US Telephoned Pro ([telephoned.pro](https://telephoned.pro)) is an AI b",
-      "posted_at": "2026-10-12T14:46:44Z",
-      "url": "https://www.freelancer.com/projects/40763892",
-      "source": "Freelancer",
-      "matches": [
-        "AI automation"
-      ]
-    },
-    {
-      "id": 40763935,
-      "title": "BALAM Chocolate Brand Identity",
-      "summary": "BRAND IDENTITY DESIGN BRIEF — BALAM CHOCOLATE Premium Artisanal Chocolate | Roatán, Honduras 1. Project Overview I am looking for a talented brand designer to develop a complete visual identity for BALAM Chocolate, an artisanal chocolate brand inspired by the Mayan cultural herit",
-      "posted_at": "2026-10-12T14:37:23Z",
-      "url": "https://www.freelancer.com/projects/40763935",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763904,
-      "title": "TikTok Gaming Live Stream Setup",
-      "summary": "I’m preparing to stream gaming content on TikTok and need a clear, fool-proof setup so I can go live without technical hiccups and keep viewers engaged from the first second. Here’s what I’m looking for: • A step-by-step guide (with screenshots or short clips) that shows exactly ",
-      "posted_at": "2026-10-12T14:15:21Z",
-      "url": "https://www.freelancer.com/projects/40763904",
+      "id": 40765627,
+      "title": "Spanish-Speaking Video Editor for Ongoing Engagement",
+      "summary": "Video Editor Needed – Long-Term Collaboration (30–40 Videos per Month) “THIS IS A ONE TIME VIDEO PAID TEST” We are looking for a professional video editor who speaks and fully understands Spanish. This is a mandatory requirement. We need someone with strong editing skills, creati",
+      "posted_at": "2026-10-13T13:14:19Z",
+      "url": "https://www.freelancer.com/projects/40765627",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40763880,
-      "title": "Sancaktepe Araç Tanıtım Çekimi",
-      "summary": "Sancaktepe’de satış ekibimizin anlatacağı araç tanıtım reel’leri için dinamik ve hızlı tempolu bir video istiyorum. İhtiyacım olan yalnızca çekim ve montaj; ses, ışık ve kamera ekipmanlarımız hazır, çekim günü sahada size teslim edeceğim. Beklentilerim • Dinamik ve yüksek tempolu",
-      "posted_at": "2026-10-12T13:57:28Z",
-      "url": "https://www.freelancer.com/projects/40763880",
+      "id": 40763233,
+      "title": "Wedding Film Color Grading",
+      "summary": "I’m looking for a skilled colorist to breathe life into a recently-shot wedding film. The footage is already assembled—I simply need the color corrected and graded so the final piece feels timeless, romantic, and consistent across every scene. Here’s what I’m after: • Professiona",
+      "posted_at": "2026-10-13T13:12:58Z",
+      "url": "https://www.freelancer.com/projects/40763233",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40760803,
-      "title": "Cinematic Video Color Correction",
-      "summary": "I have a professionally shot video that is fully assembled; it only needs a meticulous color pass to elevate it to a true cinematic finish. I’m aiming for rich contrast, nuanced shadows, and film-style tones without losing detail or introducing artificial saturation. All clips ar",
-      "posted_at": "2026-10-12T13:47:00Z",
-      "url": "https://www.freelancer.com/projects/40760803",
+      "id": 40765620,
+      "title": "Fast-Paced Instagram Reels Editing",
+      "summary": "I shoot short clips of hardware builds, teardown highlights, and gadget prototypes and now need them turned into scroll-stopping Instagram Reels. The vibe should stay trendy and fast-paced—think rapid cuts, punchy transitions, snappy text overlays, and on-trend audio that syncs p",
+      "posted_at": "2026-10-13T13:09:16Z",
+      "url": "https://www.freelancer.com/projects/40765620",
       "source": "Freelancer",
       "matches": [
+        "branding",
         "video editing"
       ]
     },
     {
-      "id": 40763866,
-      "title": "Social Media App Developers Needed",
-      "summary": "I’m ready to kick-off the first of several next-gen apps I have planned, and I want an experienced Indian team that can handle both Android and iOS builds from the ground up. The inaugural project is a social media platform focused on user profiles and content sharing with smooth",
-      "posted_at": "2026-10-12T13:45:12Z",
-      "url": "https://www.freelancer.com/projects/40763866",
+      "id": 40765614,
+      "title": "Refer Digital Projects, Earn 20%",
+      "summary": "# Looking for a Business Development Partner We are looking for a Business Development Partner to help us connect with potential clients for our digital services. **Our Services:** - Website Development - Mobile App Development - UI/UX Design - Custom Software and Web Application",
+      "posted_at": "2026-10-13T13:08:13Z",
+      "url": "https://www.freelancer.com/projects/40765614",
       "source": "Freelancer",
       "matches": [
         "UI UX"
       ]
     },
     {
-      "id": 40763867,
-      "title": "Wix End-Lease Cleaning Site",
-      "summary": "I need a Wix specialist who can take my existing logo and colour palette and translate them into a friendly, approachable online presence for our end-of-lease cleaning service. The site has a single, razor-sharp goal: turn visitors into confirmed bookings or solid quote requests.",
-      "posted_at": "2026-10-12T13:44:14Z",
-      "url": "https://www.freelancer.com/projects/40763867",
+      "id": 40765612,
+      "title": "YouTube Lead-Gen Ad Campaign",
+      "summary": "I need a complete YouTube campaign built to capture leads. The ad will target a clearly defined health-and-wellness demographic, segmented by both age group and location, so every creative and placement decision must speak directly to that audience. Here’s what I’m after: • Compe",
+      "posted_at": "2026-10-13T13:05:43Z",
+      "url": "https://www.freelancer.com/projects/40765612",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40763863,
-      "title": "Colourist / Video Finishing Editor Needed for a 6-Minute Short Film",
-      "summary": "We’re looking for an experienced colourist / post-production finishing editor to handle the final visual polish of a 6-minute, 42-second short film, shot entirely on GoPro from the perspective of a cat. The film has already been edited in DaVinci Resolve and is essentially pictur",
-      "posted_at": "2026-10-12T13:42:29Z",
-      "url": "https://www.freelancer.com/projects/40763863",
+      "id": 40765604,
+      "title": "Spanish YouTube Podcast Video Editor Needed",
+      "summary": "Hello! My name is Vicente, and I'm the creator of Spanish with Vicente, an educational YouTube channel focused on helping international students learn Spanish. I'm looking for a reliable, Spanish-speaking video editor to edit my weekly YouTube podcast. My goal is to establish a l",
+      "posted_at": "2026-10-13T13:02:33Z",
+      "url": "https://www.freelancer.com/projects/40765604",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40763861,
-      "title": "Expert Photo Editing Required",
-      "summary": "I have a collection of images that need to look crisp, consistent, and professional before they go live. Your main focus will be three things: accurate color correction so every shot feels true-to-life, subtle retouching to polish skin or surfaces without losing detail, and preci",
-      "posted_at": "2026-10-12T13:41:18Z",
-      "url": "https://www.freelancer.com/projects/40763861",
+      "id": 40765598,
+      "title": "Consistent Human AI Characters via Higgsfield",
+      "summary": "I’m building a roster of lifelike human personas with Higgsfield’s Soul ID / Soul 2.0 engine and I need a workflow that guarantees the same individual shows up every time I hit “generate”. Faces, body proportions and overall vibe must stay stable across different prompts, scenes ",
+      "posted_at": "2026-10-13T13:00:07Z",
+      "url": "https://www.freelancer.com/projects/40765598",
+      "source": "Freelancer",
+      "matches": [
+        "AI automation",
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765594,
+      "title": "Lead-Gen Social Media Ads for international car tours",
+      "summary": "I’m ready to roll out a results-driven social media campaign that turns scrolling thumbs into qualified leads. The core channels are Facebook, Instagram and TikTok, so every asset you create must feel native to those feeds while moving prospects toward an opt-in or booking step. ",
+      "posted_at": "2026-10-13T12:57:10Z",
+      "url": "https://www.freelancer.com/projects/40765594",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40763834,
-      "title": "Social Media & Graphic Design for Financial Brand",
-      "summary": "## Project Title **Social Media Page Creation, Graphics Design & Management for Market Pulse Global** ### Project Description We are looking for an experienced freelancer to build and manage the social media presence of **Market Pulse Global**, a financial-market education brand.",
-      "posted_at": "2026-10-12T13:20:51Z",
-      "url": "https://www.freelancer.com/projects/40763834",
+      "id": 40765586,
+      "title": "Build My WooCommerce Storefront",
+      "summary": "I’m ready to turn my idea into a fully-functioning e-commerce shop and need a WooCommerce pro who can handle both design flair and solid technical setup. The end goal is a polished storefront that looks great on any device and runs smoothly behind the scenes. Here’s what I have i",
+      "posted_at": "2026-10-13T12:53:16Z",
+      "url": "https://www.freelancer.com/projects/40765586",
       "source": "Freelancer",
       "matches": [
         "branding"
       ]
     },
     {
-      "id": 40763822,
-      "title": "London Uni Promotional Video Series",
-      "summary": "I’m putting together a set of short, dynamic promotional videos that showcase the very best of London’s universities—everything from modern campus facilities and authentic student life to the broader flavour of British culture just outside the lecture hall. The goal is clear: att",
-      "posted_at": "2026-10-12T13:12:33Z",
-      "url": "https://www.freelancer.com/projects/40763822",
+      "id": 40765576,
+      "title": "Shopify Store Optimization and Management (Spanish)",
+      "summary": "Shopify Store Manager – Spanish Speaking | Landing Pages & CRO | Long-Term Shopify Store Manager – Spanish Speaking | Landing Pages & CRO | Long-Term Posted 31 minutes ago Worldwide Summary We are looking for a reliable, experienced, and proactive **Shopify Store Manager** to joi",
+      "posted_at": "2026-10-13T12:49:48Z",
+      "url": "https://www.freelancer.com/projects/40765576",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40765579,
+      "title": "2D Conference Poster Design",
+      "summary": "I'm looking for a talented 2D poster designer to create an engaging and professional poster for an upcoming conference aimed at industry professionals. Requirements: - The poster should effectively promote the event and attract the target audience. - The design must be visually a",
+      "posted_at": "2026-10-13T12:48:09Z",
+      "url": "https://www.freelancer.com/projects/40765579",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40765575,
+      "title": "Dynamic YouTube Editor & Designer",
+      "summary": "I run a YouTube channel that changes style from week to week, so I need one versatile creative partner who can move smoothly between editing and design. The videos aren’t the typical vlogs, tutorials, or product reviews—instead, each episode has its own angle, pace, and storytell",
+      "posted_at": "2026-10-13T12:43:48Z",
+      "url": "https://www.freelancer.com/projects/40765575",
       "source": "Freelancer",
       "matches": [
         "video editing"
       ]
     },
     {
-      "id": 40763802,
-      "title": "Build Automation with n8n Flows and RAG Chatbot",
-      "summary": "I’m looking for a professional who can assist in building two key AI projects for my portfolio: 1. Automating P1 & P2 issue ticketing using n8n flows: This involves creating workflows that automatically generate tickets based on the severity of issues, ensuring seamless automatio",
-      "posted_at": "2026-10-12T13:12:11Z",
-      "url": "https://www.freelancer.com/projects/40763802",
+      "id": 40765555,
+      "title": "Video Promosi TikTok 30 Detik",
+      "summary": "Saya membutuhkan sebuah video berdurasi 30 detik untuk promosi produk di TikTok. Konsepnya harus cepat, menarik, dan selaras dengan gaya konten TikTok yang serba ringkas namun tetap informatif. Ruang lingkup pekerjaan: • Menyusun storyline singkat yang langsung menyorot keunggula",
+      "posted_at": "2026-10-13T12:29:56Z",
+      "url": "https://www.freelancer.com/projects/40765555",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765543,
+      "title": "Long-Term EN-ID Marketing Translator",
+      "summary": "I need a reliable translator who can move effortlessly between English and Indonesian while preserving the persuasive tone of our marketing materials—think brochures, social posts, email campaigns, and short video scripts. My goal is to build an ongoing relationship, so I’m looki",
+      "posted_at": "2026-10-13T12:20:44Z",
+      "url": "https://www.freelancer.com/projects/40765543",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765544,
+      "title": "Need an AI-powered Video Content Creator & Social Media Manager",
+      "summary": "Hi I will share the details with the shortlisted candidates. Thanks",
+      "posted_at": "2026-10-13T12:19:46Z",
+      "url": "https://www.freelancer.com/projects/40765544",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765526,
+      "title": "Residential Listing Promo Videos",
+      "summary": "I need a short series of 3–4 videos that promote individual residential listings across Meta platforms (Facebook, Instagram, Reels, Ads). Each piece must feel professional and informative, giving prospective buyers the key facts they need while still keeping the pace energetic en",
+      "posted_at": "2026-10-13T12:08:38Z",
+      "url": "https://www.freelancer.com/projects/40765526",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40765522,
+      "title": "YouTube Creator for Personal Finance Channel",
+      "summary": "# Job Title: Full-Service YouTube Video Creator for a Personal Finance Channel (US Audience) ## Job Description I am looking for an experienced and reliable YouTube video creator who can independently handle the entire video production process for my personal finance and self-imp",
+      "posted_at": "2026-10-13T12:08:13Z",
+      "url": "https://www.freelancer.com/projects/40765522",
+      "source": "Freelancer",
+      "matches": [
+        "video editing"
+      ]
+    },
+    {
+      "id": 40765510,
+      "title": "YouTube Channel Animator & Editor",
+      "summary": "My YouTube channel is ready for the next leap in quality, and that starts with standout 2D and 3D animation. Each episode needs character work that drives the story, motion-graphic sequences that break down complex ideas, and the occasional slick product spot for sponsors—all wov",
+      "posted_at": "2026-10-13T11:59:12Z",
+      "url": "https://www.freelancer.com/projects/40765510",
+      "source": "Freelancer",
+      "matches": [
+        "Blender"
+      ]
+    },
+    {
+      "id": 40765491,
+      "title": "Cartoon Shopping Bag 3D Animation",
+      "summary": "3D MASCOT MODELLING, RIGGING & ANIMATION REQUIREMENTS SOFTWARE: Blender DELIVERY: GLB / glTF 2.0 1. PROJECT OVERVIEW We require a professional 3D modeller, rigger and animator to recreate an existing shopping bag mascot as a fully articulated, expressive 3D character. Front, rear",
+      "posted_at": "2026-10-13T11:48:46Z",
+      "url": "https://www.freelancer.com/projects/40765491",
+      "source": "Freelancer",
+      "matches": [
+        "branding",
+        "Blender"
+      ]
+    },
+    {
+      "id": 40765452,
+      "title": "Comprehensive Branding Design Specialist - 13/10/2026 07:22 EDT",
+      "summary": "I'm looking for a talented designer to create cohesive and compelling brand identity. The project includes: Logo Design: Craft a unique, text-based and typography-focused logo that encapsulates our brand essence. Business Cards: Design professional business cards that align with ",
+      "posted_at": "2026-10-13T11:36:44Z",
+      "url": "https://www.freelancer.com/projects/40765452",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40765460,
+      "title": "Figma Student Portfolio Web Design",
+      "summary": "I need desktop-oriented portfolio websites designed in Figma for high-school students who are applying to international universities. The goal is to give each student a distinctive online space that highlights who they are, with a strong focus on a Personal Stories section presen",
+      "posted_at": "2026-10-13T11:28:10Z",
+      "url": "https://www.freelancer.com/projects/40765460",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765456,
+      "title": "WooCommerce Jewelry Store",
+      "summary": "I’m preparing to launch an online boutique for my silver-jewelry line and have chosen WooCommerce on WordPress as the backbone. The visual direction is refined, minimalist, and decidedly luxurious, letting crisp, high-resolution photos do the selling while the interface stays cal",
+      "posted_at": "2026-10-13T11:26:24Z",
+      "url": "https://www.freelancer.com/projects/40765456",
+      "source": "Freelancer",
+      "matches": [
+        "product photography"
+      ]
+    },
+    {
+      "id": 40765433,
+      "title": "Redesign and add additional features, SEO & Digital Marketing Expert for CalcsMaster",
+      "summary": "We are looking for an experienced SEO and Digital Marketing Expert to improve our website's search engine visibility, user experience, and organic traffic. Website: https://calcsmaster.com CalcsMaster offers 100+ free online calculators across finance, loans, investments, account",
+      "posted_at": "2026-10-13T11:10:47Z",
+      "url": "https://www.freelancer.com/projects/40765433",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765403,
+      "title": "US-BASED Sales Closer — AI Solutions",
+      "summary": "US-BASED Sales Closer — AI Solutions ** IMPORTANT: YOU MUST CURRENTLY LIVE IN THE UNITED STATES TO APPLY. Applicants outside the US will not be considered.** ### About the Role Acronix helps businesses improve efficiency through AI automation, including lead follow-ups, calls, an",
+      "posted_at": "2026-10-13T10:49:31Z",
+      "url": "https://www.freelancer.com/projects/40765403",
       "source": "Freelancer",
       "matches": [
         "AI automation"
       ]
     },
     {
-      "id": 40763819,
-      "title": "Modern Clothing Logos",
-      "summary": "I'm seeking creative and skilled designers to create modern-styled logos for clothing. The logos will be used primarily on T-shirts, hats, and jackets. Key requirements: - Modern design aesthetic - Versatile for multiple clothing items - Experience in apparel branding Please shar",
-      "posted_at": "2026-10-12T13:11:38Z",
-      "url": "https://www.freelancer.com/projects/40763819",
+      "id": 40765300,
+      "title": "Marketing Agency WordPress Site Build",
+      "summary": "I need a complete WordPress site created for my marketing company. The build must spotlight our services, highlight real client testimonials, and include a reliable contact form that delivers inquiries straight to my inbox. I’ll provide the branding assets and copy; you handle de",
+      "posted_at": "2026-10-13T09:43:09Z",
+      "url": "https://www.freelancer.com/projects/40765300",
       "source": "Freelancer",
       "matches": [
         "branding"
       ]
     },
     {
-      "id": 40763803,
-      "title": "Creative Video Editor Wanted – Instagram Reels | Long-Term Collaboration",
-      "summary": "Hi! We're looking for a creative and talented video editor for an ongoing collaboration on two projects focused on the Amazon rainforest, Indigenous communities, personal transformation, music, and conscious living. We have a large collection of authentic, high-quality footage fi",
-      "posted_at": "2026-10-12T13:04:20Z",
-      "url": "https://www.freelancer.com/projects/40763803",
+      "id": 40765264,
+      "title": "Customized React Web Design & Development",
+      "summary": "This project involves considerably more than a conventional static website. Key deliverables include: Custom UI/UX Design: A tailored visual experience aligned with Doctus’s brand, services, and business objectives. Next.js & React Development: A modern, responsive architecture o",
+      "posted_at": "2026-10-13T09:28:08Z",
+      "url": "https://www.freelancer.com/projects/40765264",
       "source": "Freelancer",
       "matches": [
-        "video editing"
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765230,
+      "title": "Product / UX/UI Designer for ROOMS - Paid Figma Trial",
+      "summary": "We are building ROOMS - a social platform of live digital Rooms. Each Room is a place with its own atmosphere and people: somewhere to meet, spend time together and want to return. We are looking for a designer who can give this experience a distinctive visual character: expressi",
+      "posted_at": "2026-10-13T09:06:48Z",
+      "url": "https://www.freelancer.com/projects/40765230",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765186,
+      "title": "GoodBro Branding, Website & Social Media Launch",
+      "summary": "Project Title: Brand Identity, Website Development, and Facebook Setup for GoodBro Description: We are looking for an experienced graphic designer, web developer, and social media manager to build the complete branding package and online launch setup for our business, \"GoodBro\" (",
+      "posted_at": "2026-10-13T08:41:04Z",
+      "url": "https://www.freelancer.com/projects/40765186",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40765149,
+      "title": "Secure Cross-Platform Money Transfer App",
+      "summary": "I need a seasoned developer (or small team) to build a smooth, cross-platform money transfer application that works on iOS, Android, and the web with near-zero downtime. Stability and security are top priorities: every transaction must be protected by two-factor authentication, s",
+      "posted_at": "2026-10-13T08:20:45Z",
+      "url": "https://www.freelancer.com/projects/40765149",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765145,
+      "title": "E-Commerce Website & App Development",
+      "summary": "I need a full-featured e-commerce presence that works flawlessly on both desktop browsers and mobile devices. The scope covers the public-facing store as well as a small back-office area my team can use for order management and basic catalog edits. Please build: • Responsive webs",
+      "posted_at": "2026-10-13T08:20:38Z",
+      "url": "https://www.freelancer.com/projects/40765145",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765143,
+      "title": "AI Powered Personal Learning Mobile App Development",
+      "summary": "I’m planning a new informational site whose core mission is to host and deliver educational content through high-quality video lessons. I want the entire experience to feel smart and adaptive, so please approach the build with AI integration in mind—for example, recommending less",
+      "posted_at": "2026-10-13T08:18:00Z",
+      "url": "https://www.freelancer.com/projects/40765143",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40765094,
+      "title": "Full Stack Web Developer / Figma Sites Expert - Consumer Brand Website + more potential projects",
+      "summary": "Our client needs a fast & responsive website that serves as an information hub for a consumer brand. At its core will be a regularly-updated blog, supported by a prominent contact form and a section for client testimonials to reinforce credibility. The look and feel should be mod",
+      "posted_at": "2026-10-13T07:42:44Z",
+      "url": "https://www.freelancer.com/projects/40765094",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40764884,
+      "title": "Android Social Networking App",
+      "summary": "I need an Android-only mobile application dedicated to social networking, taken from concept to a production-ready APK that meets Google Play guidelines. The scope covers everything from designing an intuitive user interface to implementing the full feature set on the native Andr",
+      "posted_at": "2026-10-13T05:22:47Z",
+      "url": "https://www.freelancer.com/projects/40764884",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40764839,
+      "title": "AI Video Production for Fitness Brand",
+      "summary": "Industry: Fitness, Apparel & Digital Marketing Can you create AI-generated videos that look REAL and capture attention? I am looking for a creative and experienced AI Video Creator who can produce realistic, high-quality, viral-style videos to promote our fitness brand, gym facil",
+      "posted_at": "2026-10-13T04:36:41Z",
+      "url": "https://www.freelancer.com/projects/40764839",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764772,
+      "title": "Steel Products E-commerce & Business Management Website",
+      "summary": "# Freelance Project: Steel Products Website Development – 3 Phases / Budget Options ## Project Overview We are looking for an experienced Website Developer or Web Development Team to design and develop a professional, responsive website for a steel products trading and supply bus",
+      "posted_at": "2026-10-13T03:47:10Z",
+      "url": "https://www.freelancer.com/projects/40764772",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40764731,
+      "title": "Interior Architectural Visualization Rendering",
+      "summary": "I am preparing a presentation package for an interior space and need photorealistic 3D renderings that clearly communicate layout, finishes, lighting, and overall ambience. You will receive the floor plans, reflected ceiling plan, furniture schedule, and reference photos the mome",
+      "posted_at": "2026-10-13T03:21:11Z",
+      "url": "https://www.freelancer.com/projects/40764731",
+      "source": "Freelancer",
+      "matches": [
+        "Blender"
+      ]
+    },
+    {
+      "id": 40764733,
+      "title": "Mechanical Linkages Design",
+      "summary": "I’m looking for a motivated mechanical engineer or product development specialist interested in partnering on a new product venture. I have a product concept with commercial potential and am looking for someone with the technical skills to help develop the design, build a prototy",
+      "posted_at": "2026-10-13T03:20:18Z",
+      "url": "https://www.freelancer.com/projects/40764733",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764262,
+      "title": "Corporate Announcement Video Creation",
+      "summary": "I'm looking for a mixed media video announcement to be delivered via WhatsApp. Key requirements: - Use of both live action and animation - Engaging visuals to capture attention - Professional narration and background music - Suitable for corporate branding Ideal skills and experi",
+      "posted_at": "2026-10-13T02:55:06Z",
+      "url": "https://www.freelancer.com/projects/40764262",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764658,
+      "title": "Edit Foto & Video YouTube",
+      "summary": "Saya membutuhkan bantuan untuk mengolah sekaligus memoles foto dan video agar siap tayang sebagai konten di kanal YouTube saya. Semua materi mentah sudah saya sediakan; tugas Anda adalah: • Merapikan warna, pencahayaan, serta komposisi foto. • Memotong, menyusun, dan memberi tran",
+      "posted_at": "2026-10-13T02:24:55Z",
+      "url": "https://www.freelancer.com/projects/40764658",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764653,
+      "title": "Engaging Adventure Campaign Website Design",
+      "summary": "Create a quality, engaging website design for my project, inviting people to apply for a paid adventure showcasing work and life in regional Australia. The website will be the central destination for campaign information, paid entries, applicant video uploads and social media con",
+      "posted_at": "2026-10-13T02:20:21Z",
+      "url": "https://www.freelancer.com/projects/40764653",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764612,
+      "title": "Figma UI/UX Designer Needed | Mobile App",
+      "summary": "We’re looking for an experienced Figma designer to help bring an existing mobile app to life. We’ve already done much of the groundwork. The product concept, user journeys, screen content and functionality are mapped out, and we have established brand guidelines and visual assets",
+      "posted_at": "2026-10-13T01:29:27Z",
+      "url": "https://www.freelancer.com/projects/40764612",
+      "source": "Freelancer",
+      "matches": [
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40764577,
+      "title": "AI-Powered Commercial Driver Recruitment Application",
+      "summary": "Project Overview We are seeking an experienced Full-Stack Developer or Development Team to design and build a modern, AI-powered, multi-tenant web application for commercial driver recruiting, pre-qualification, application processing, and onboarding readiness. This is Module 01 ",
+      "posted_at": "2026-10-13T00:52:13Z",
+      "url": "https://www.freelancer.com/projects/40764577",
+      "source": "Freelancer",
+      "matches": [
+        "branding",
+        "UI UX"
+      ]
+    },
+    {
+      "id": 40764576,
+      "title": "Product Catalogue Design",
+      "summary": "I need a professional product catalogue designed. The final output should be in PDF format. Key requirements: - High-quality, visually appealing layout - Organized product information - Consistent branding and color scheme - Suitable for both print and digital distribution Ideal ",
+      "posted_at": "2026-10-13T00:49:40Z",
+      "url": "https://www.freelancer.com/projects/40764576",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764571,
+      "title": "2K-Style UFC PC Game",
+      "summary": "I have a full feature breakdown ready in a PDF and now need the entire game built for PC. The vision is a realistic-looking mixed-martial-arts title that feels as deep and polished as a 2K release. Core gameplay • Play Now: single-player or couch co-op, plus online head-to-head m",
+      "posted_at": "2026-10-13T00:44:26Z",
+      "url": "https://www.freelancer.com/projects/40764571",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764477,
+      "title": "Office UGC App B-Roll",
+      "summary": "I need a clean, silent sequence of UGC-style b-roll that shows a woman interacting with our iPhone app inside an office environment. The footage should feel natural and candid—no dialogue, no on-screen text, just the sounds of the space (or none at all if you prefer to supply it ",
+      "posted_at": "2026-10-12T22:39:28Z",
+      "url": "https://www.freelancer.com/projects/40764477",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764456,
+      "title": "Creative T-Shirt Typography Design",
+      "summary": "We are looking for a creative and modern Graphic Designer to help build the visual identity and product presentation for a new Shopify-based T-shirt and apparel website. The website will include: Multiple pre-designed T-shirt collections Lifestyle and promotional graphics Product",
+      "posted_at": "2026-10-12T22:06:40Z",
+      "url": "https://www.freelancer.com/projects/40764456",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764452,
+      "title": "Personal Branding and Workbook Sales",
+      "summary": "I'm looking to build a personal brand and sell workbooks online. I already have a color scheme and tagline but need a cohesive brand identity and an engaging website. Key Tasks: - Create a strong personal brand - Design a professional website for workbook sales - Integrate my exi",
+      "posted_at": "2026-10-12T22:01:56Z",
+      "url": "https://www.freelancer.com/projects/40764452",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764418,
+      "title": "Photo Editing for Social Media Campaign",
+      "summary": "Photo Editing & Social Media Adaptation Brief Project overview We require the editing, retouching and multi-format adaptation of approximately 100 photographs from two separate photoshoots: Outdoor shoot — lifestyle/environmental imagery. Indoor product-placement shoot — focused ",
+      "posted_at": "2026-10-12T21:17:34Z",
+      "url": "https://www.freelancer.com/projects/40764418",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764384,
+      "title": "Design & Implement Secure Online Members Area -- 2",
+      "summary": "Brief for potential digital designers - S.G. Leads online members area We are a UK based charity looking for the best quotes and turn around time for designing and implementing a new members only area, connected to our existing website. Included in the quote, we want to know abou",
+      "posted_at": "2026-10-12T20:42:46Z",
+      "url": "https://www.freelancer.com/projects/40764384",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764360,
+      "title": "We are seeking an experienced website developer, branding specialist, or full-service digital marketing agency to assist with the launch of a licensed adult-use cannabis retail dispensary in New Jersey.\n\nOur objective is to establish a professional, recog",
+      "summary": "Scope of Work 1. Website Design & Development Design and develop a professional, modern, mobile-responsive dispensary website. Create pages including Home, About Us, Products, Promotions, FAQs, Careers, and Contact. Integrate an age-verification gateway. Incorporate online produc",
+      "posted_at": "2026-10-12T20:20:31Z",
+      "url": "https://www.freelancer.com/projects/40764360",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764352,
+      "title": "Detailed 3D Animation for House Plans",
+      "summary": "I need a professional 3D animator to create a highly detailed animation of a house for architectural visualization. The animation will be used for showcasing both the interior and exterior of the property. Key Requirements: - Both interior and exterior visualization - Highly deta",
+      "posted_at": "2026-10-12T20:14:25Z",
+      "url": "https://www.freelancer.com/projects/40764352",
+      "source": "Freelancer",
+      "matches": [
+        "Blender"
+      ]
+    },
+    {
+      "id": 40764258,
+      "title": "Analisis The Company",
+      "summary": "Opinion 1: The Company Should Improve Product and Service Quality Product and service quality is one of the most important factors influencing customer satisfaction. Customers are more likely to remain loyal to a company when they receive reliable, useful, and high-quality produc",
+      "posted_at": "2026-10-12T18:47:20Z",
+      "url": "https://www.freelancer.com/projects/40764258",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764211,
+      "title": "Social Media Manager & Brand Strategist Needed",
+      "summary": "# WE ARE HIRING: SOCIAL MEDIA MANAGER, BRAND STRATEGIST & META ADS SPECIALIST **Remote Worldwide | 20 Hours per Week | €2.50/Hour | Long-Term Opportunity** We are looking for a highly motivated, creative, strategic, trustworthy, and experienced Social Media Manager who can take f",
+      "posted_at": "2026-10-12T17:56:12Z",
+      "url": "https://www.freelancer.com/projects/40764211",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764206,
+      "title": "Animated Portfolio Website Design",
+      "summary": "I need a seasoned UI/UX-minded graphic designer to craft the complete look and feel of my personal portfolio site. The goal is to present my work through a design that feels animated, classic, and unmistakably creative—think subtle motion, timeless typography, and a layout that g",
+      "posted_at": "2026-10-12T17:53:23Z",
+      "url": "https://www.freelancer.com/projects/40764206",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764192,
+      "title": "Diseño Web Logístico + SEO/AEO",
+      "summary": "Quiero poner en línea la nueva cara digital de mi empresa de servicios logísticos y necesito un sitio web que se sienta tan dinámico como nuestras operaciones. Busco un enfoque creativo e innovador, alejándonos del típico “sitio corporativo” y apostando por una interfaz moderna q",
+      "posted_at": "2026-10-12T17:45:59Z",
+      "url": "https://www.freelancer.com/projects/40764192",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
+      ]
+    },
+    {
+      "id": 40764158,
+      "title": "Gen Z Oriented E-Commerce Site for Sanitary Pads",
+      "summary": "Hi, I want to build an attractive, modern e-commerce website for my sanitary pad brand in India, targeting Gen Z customers. The product itself will be a regular, high-quality sanitary pad. Our differentiation will come from trendy packaging, colourful individual pad wrappers, mod",
+      "posted_at": "2026-10-12T17:17:47Z",
+      "url": "https://www.freelancer.com/projects/40764158",
+      "source": "Freelancer",
+      "matches": [
+        "branding"
       ]
     },
     {
@@ -491,204 +979,6 @@
       ]
     },
     {
-      "id": 40763793,
-      "title": "Clean Social Media Video Editing",
-      "summary": "I shoot short clips on my phone and mirrorless camera for a growing social-media channel and now need a reliable editor to turn that raw footage into polished, professional-looking posts. On each assignment you’ll: • Select the best takes, trim dead space, and keep the pacing tig",
-      "posted_at": "2026-10-12T12:54:19Z",
-      "url": "https://www.freelancer.com/projects/40763793",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40763756,
-      "title": "Telugu Travel Video Editor Required",
-      "summary": "Video Editor Needed for Telugu Travel YouTube Videos & Shorts I’m looking for a freelance video editor or video editing company located in Andhra Pradesh or Telangana to edit Telugu travel content for YouTube and social media. Please apply only if you or your company are based in",
-      "posted_at": "2026-10-12T12:51:13Z",
-      "url": "https://www.freelancer.com/projects/40763756",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40763768,
-      "title": "Branded Content Video Editor",
-      "summary": "I'm seeking a skilled freelance video editor for branded content projects. Key Requirements: - Experience in editing branded content, fashion films, and cinematic projects. - Ability to create artistic and cinematic visuals. Ideal Skills: - Proficiency in video editing software (",
-      "posted_at": "2026-10-12T12:46:13Z",
-      "url": "https://www.freelancer.com/projects/40763768",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40763748,
-      "title": "AI Character Motion Recreation",
-      "summary": "I have 24 short clips (15–30 s each) that I want rebuilt with AI so the motion stays frame-perfect while the on-screen character is replaced by the portrait I supply. The look must stay realistic and the only thing visible behind the subject is a pure white backdrop. Every source",
-      "posted_at": "2026-10-12T12:39:32Z",
-      "url": "https://www.freelancer.com/projects/40763748",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40763707,
-      "title": "Claude AI Business Automation Setup",
-      "summary": "I rely on Claude every day, yet I know I’m only scratching the surface. I’d like step-by-step guidance—ideally in a few live sessions—so I can turn Claude into a hands-on assistant for three core workflows: • QuickBooks data entry My first priority is eliminating manual input. Sh",
-      "posted_at": "2026-10-12T11:54:19Z",
-      "url": "https://www.freelancer.com/projects/40763707",
-      "source": "Freelancer",
-      "matches": [
-        "AI automation"
-      ]
-    },
-    {
-      "id": 40763699,
-      "title": "iOS App via Flutter/React",
-      "summary": "I’m kicking off a small iOS project and want it built with either Flutter or React Native—whichever you feel is the stronger fit for rapid delivery and maintainability. The scope covers everything from turning my rough wireframes into polished, native-feeling screens, through to ",
-      "posted_at": "2026-10-12T11:51:39Z",
-      "url": "https://www.freelancer.com/projects/40763699",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763693,
-      "title": "WordPress Platform for Premium Investment Consultancy",
-      "summary": "# WordPress Website Development for HNI & UHNI Investment Advisory Business We are looking for an experienced WordPress website developer to design and develop a premium, professional, and modern website for our investment advisory business catering to \"High-Net-Worth Individuals",
-      "posted_at": "2026-10-12T11:41:29Z",
-      "url": "https://www.freelancer.com/projects/40763693",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763646,
-      "title": "Youth Career Mobile App Development",
-      "summary": "A single, easy-to-use mobile application will connect Moroccan students, recent graduates and young professionals with the full spectrum of career opportunities: regular job listings, curated internship openings and bite-sized professional-development resources. The experience sh",
-      "posted_at": "2026-10-12T11:05:21Z",
-      "url": "https://www.freelancer.com/projects/40763646",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763602,
-      "title": "Modern Responsive Website Design",
-      "summary": "I'm looking for a creative and reliable website designer for website development. The candidate should have experience in modern website design, UI/UX, and responsive layouts. Please share your portfolio, relevant experience, and estimated budget. Good communication and reliabili",
-      "posted_at": "2026-10-12T10:22:30Z",
-      "url": "https://www.freelancer.com/projects/40763602",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763568,
-      "title": "Lead-Focused Roofing Website Build",
-      "summary": "I need a clean, mobile-responsive website that presents our roofing services with one clear goal: turn visitors into qualified leads. I already have the logo, color palette, and typography guidelines, so you can jump straight into design and development without a branding discove",
-      "posted_at": "2026-10-12T10:02:50Z",
-      "url": "https://www.freelancer.com/projects/40763568",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763517,
-      "title": "LinkedIn Profile Management & Content Strategy",
-      "summary": "Key Responsibilities 1. Personal Branding & Profile Management Manage and optimize the LinkedIn profiles of our founder and clients. Develop personal branding strategies aligned with each individual's professional goals. Improve profile headlines, About sections, experience descr",
-      "posted_at": "2026-10-12T09:30:51Z",
-      "url": "https://www.freelancer.com/projects/40763517",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763515,
-      "title": "Modern React Business Website -- 3",
-      "summary": "I need a sleek, lightning-fast website built with React that will serve as the public face of my company. The design must feel current and professional, load quickly, and look perfect on every device. Most of the pages will showcase high-quality images and galleries, so an elegan",
-      "posted_at": "2026-10-12T09:29:24Z",
-      "url": "https://www.freelancer.com/projects/40763515",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763503,
-      "title": "Modern React Business Website -- 2",
-      "summary": "I need a sleek, lightning-fast website built with React that will serve as the public face of my company. The design must feel current and professional, load quickly, and look perfect on every device. Most of the pages will showcase high-quality images and galleries, so an elegan",
-      "posted_at": "2026-10-12T09:25:20Z",
-      "url": "https://www.freelancer.com/projects/40763503",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763480,
-      "title": "Smart TV App Development",
-      "summary": "I'm looking for an experienced app developer to create a Smart TV app. The app should be compatible with the following platforms: - Roku - Amazon Fire TV - Samsung Tizen - Android TV The ideal candidate should have: - Proven experience in developing apps for multiple Smart TV pla",
-      "posted_at": "2026-10-12T09:16:55Z",
-      "url": "https://www.freelancer.com/projects/40763480",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763485,
-      "title": "Futuristic Desktop Mat Design",
-      "summary": "I need a custom desktop mat sized 11\" × 23\" that fuses a sleek, futuristic aesthetic with our core branding. Please work with a bold colour palette and make sure three key elements are woven together seamlessly: • our company logo • recognisable visuals of our flagship products •",
-      "posted_at": "2026-10-12T09:15:56Z",
-      "url": "https://www.freelancer.com/projects/40763485",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763458,
-      "title": "Professional Video shoot- only in Mohali and Chandigarh",
-      "summary": "Location: Mohali / Chandigarh Type: Freelance / Project-based We’re looking for a video creator/videographer to work with us on regular social media content shoots. What you’ll be responsible for Shooting high-quality videos for Instagram, Reels and other social media platforms B",
-      "posted_at": "2026-10-12T08:58:56Z",
-      "url": "https://www.freelancer.com/projects/40763458",
-      "source": "Freelancer",
-      "matches": [
-        "video editing"
-      ]
-    },
-    {
-      "id": 40763442,
-      "title": "Mixed-Media Promo Video Editing - 12/10/2026 04:45 EDT",
-      "summary": "I need a creative editor who can turn my raw assets into punchy, short promotional spots that blend live-action footage with light animation. The finished pieces have to feel seamless, on-brand, and immediately engaging. I will provide the footage, brand guidelines, and logo file",
-      "posted_at": "2026-10-12T08:56:12Z",
-      "url": "https://www.freelancer.com/projects/40763442",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763435,
-      "title": "Jakarta AI Product Demo Video",
-      "summary": "I need an experienced AI-driven video creator based in Jakarta to craft a concise, compelling product-demonstration video for my service. The goal is clear: attract brand-new customers who have never interacted with us before, so the final piece must feel fresh, engaging, and imm",
-      "posted_at": "2026-10-12T08:46:40Z",
-      "url": "https://www.freelancer.com/projects/40763435",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
       "id": 40763422,
       "title": "2-Minute Cartoon 3D Kids Video",
       "summary": "I need a bright, playful two-minute 3D animation generated with AI tools that entertains children from the first frame to the last. Think vivid colors, exaggerated motions, and friendly characters that pop off the screen in a clean, cartoonish style rather than hyper-realism. I w",
@@ -696,107 +986,7 @@
       "url": "https://www.freelancer.com/projects/40763422",
       "source": "Freelancer",
       "matches": [
-        "branding",
         "Blender"
-      ]
-    },
-    {
-      "id": 40763407,
-      "title": "Cross-Platform Amigrapes-Style App Development",
-      "summary": "I need a full-scale rebuild of the “amigrapes” mobile experience for both Android and iOS. The goal is to replicate the core flow and overall look-and-feel of the reference app while adding the flexibility to grow new features later. Scope of work • Design and code the complete f",
-      "posted_at": "2026-10-12T08:20:45Z",
-      "url": "https://www.freelancer.com/projects/40763407",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763363,
-      "title": "Facebook Management for Hot Tub Store",
-      "summary": "I’d like to turn my hot-tub shop’s Facebook page into a lively, sales-driving community. You’ll own the entire process—from planning to reporting—while staying true to the branding guidelines I’ll provide (logo use, colours, tone of voice, etc.). What I need from you: • A monthly",
-      "posted_at": "2026-10-12T08:04:27Z",
-      "url": "https://www.freelancer.com/projects/40763363",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763345,
-      "title": "Opentext D2 SmartView Customization",
-      "summary": "I need an Opentext D2 SmartView developer to extend the standard interface, focusing purely on SmartView-side work. The goal is to add two concrete capabilities: • Custom widgets that plug seamlessly into the existing SmartView framework, following OT’s recommended extension patt",
-      "posted_at": "2026-10-12T07:39:19Z",
-      "url": "https://www.freelancer.com/projects/40763345",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763281,
-      "title": "WooCommerce E-Commerce Site & Traffic",
-      "summary": "I need an end-to-end WooCommerce store set up on WordPress that can handle secure payments, intuitive product browsing, and authentic customer feedback while attracting steady, qualified traffic. Core build The site must run the latest stable WordPress and WooCommerce versions. I",
-      "posted_at": "2026-10-12T07:36:08Z",
-      "url": "https://www.freelancer.com/projects/40763281",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763329,
-      "title": "SharePoint Intranet Collaboration Setup",
-      "summary": "Our client is ready to move all internal teamwork onto a modern SharePoint-based intranet and I need a specialist to guide the entire build. The primary goal is crystal-clear: enable smooth team collaboration, not simply a document dump. Here is what must be in place: • Robust do",
-      "posted_at": "2026-10-12T07:26:32Z",
-      "url": "https://www.freelancer.com/projects/40763329",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763323,
-      "title": "WordPress WordPress Development Elementor Website Design Responsive Web Design CSS Landing Page Web Development Website Customization",
-      "summary": "I’m looking for a WordPress developer to design and build one professional website page that is visually appealing, responsive, and easy to navigate. Project Requirements: The page should have a clean, modern layout consistent with the website’s branding. It should be responsive ",
-      "posted_at": "2026-10-12T07:25:32Z",
-      "url": "https://www.freelancer.com/projects/40763323",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763297,
-      "title": "Instagram Social Media Designer",
-      "summary": "Launching a new CPG Snacks brand. Illustration led brand with fun, quirky personality. I need a skilled designer to create engaging Instagram post graphics and story designs. You will need to follow the branding guidelines I provide. Requirements: - Experience with Instagram desi",
-      "posted_at": "2026-10-12T07:14:39Z",
-      "url": "https://www.freelancer.com/projects/40763297",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763229,
-      "title": "Retailer-Focused Sales Pitch Deck",
-      "summary": "I need a polished, persuasive pitch deck that will help me convince retailers and distributors to list my product. The core objective is straightforward: sell, not seek investment or partnerships. The deck must open with a compelling narrative about the market—size, growth trends",
-      "posted_at": "2026-10-12T06:38:02Z",
-      "url": "https://www.freelancer.com/projects/40763229",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763169,
-      "title": "Website Developer Needed for a New Moving Company Business",
-      "summary": "I am looking for an experienced website developer to create a professional website for my new packers and movers business. The website should clearly explain our services, work smoothly on mobile devices, and make it easy for visitors to submit enquiries. Reference Website InterC",
-      "posted_at": "2026-10-12T05:53:47Z",
-      "url": "https://www.freelancer.com/projects/40763169",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
       ]
     },
     {
@@ -811,105 +1001,6 @@
       ]
     },
     {
-      "id": 40763116,
-      "title": "UX/UI Website Design Specialist",
-      "summary": "Our in-house dev team turns out a steady stream of new web builds and redesigns—from revenue-driven e-commerce stores to polished corporate sites and creative portfolios. I need a dedicated UX/UI designer who can slot straight into that flow, shaping each project from first sketc",
-      "posted_at": "2026-10-12T05:12:48Z",
-      "url": "https://www.freelancer.com/projects/40763116",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763081,
-      "title": "Jetski Platform Landing Design",
-      "summary": "I want a single-screen landing page that quickly persuades visitors to leave their details for a follow-up call about our tdock jetski and PWC floating platforms. The page has to look and read like the natural next step after someone views tdocks.com or the Facebook page, so the ",
-      "posted_at": "2026-10-12T04:52:19Z",
-      "url": "https://www.freelancer.com/projects/40763081",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763080,
-      "title": "Promotional Blog & Branding Videos",
-      "summary": "I’m putting together a fresh content package that combines written authority with eye-catching visuals. First, I need a series of professional-sounding blog posts geared toward promotional and marketing goals—pieces that showcase our offers, build trust, and gently guide readers ",
-      "posted_at": "2026-10-12T04:51:42Z",
-      "url": "https://www.freelancer.com/projects/40763080",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763070,
-      "title": "DRISTIPAT Online Eyewear Store Creation",
-      "summary": "I want to build a Lenskart-style online eyewear shopping website for my optical shop brand DRISTIPAT. Required Features: 1. Premium, modern and professional design inspired by Lenskart. 2. Home page with DRISTIPAT branding, banners, offers and new collections. 3. Separate categor",
-      "posted_at": "2026-10-12T04:39:55Z",
-      "url": "https://www.freelancer.com/projects/40763070",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40763041,
-      "title": "Clinic Management Web App Testing",
-      "summary": "I’ve just finished building a web-based clinic management system and now need a meticulous QA partner to put it through its paces. Your primary focus will be twofold: • User Interface – does every screen render cleanly, read clearly, and behave intuitively, from patient intake ri",
-      "posted_at": "2026-10-12T04:10:10Z",
-      "url": "https://www.freelancer.com/projects/40763041",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40763027,
-      "title": "SEO Expert Needed for IT Company Website Fast, Quality Rankings & Lead Generation",
-      "summary": "We are looking for an experienced SEO specialist to improve the organic visibility, keyword rankings, and lead generation of our IT services website, We are a software development company offering custom software solutions, web development, and native and hybrid mobile applicatio",
-      "posted_at": "2026-10-12T03:55:53Z",
-      "url": "https://www.freelancer.com/projects/40763027",
-      "source": "Freelancer",
-      "matches": [
-        "UI UX"
-      ]
-    },
-    {
-      "id": 40760602,
-      "title": "Modern School Cricket Poster Design",
-      "summary": "The upcoming inter-house cricket match needs eye-catching promotion, so I’d like a set of modern posters built around our official school colours. The design must keep the school logo, dynamic action shots or silhouettes of cricket players, and clear match details front-and-centr",
-      "posted_at": "2026-10-12T03:33:39Z",
-      "url": "https://www.freelancer.com/projects/40760602",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40762834,
-      "title": "Build a Minimalist, Professional Dog-Training Website",
-      "summary": "Website Designer Needed – Professional, Minimalist Dog Training Website I'm looking for an experienced and creative designer to build a beautiful, professional website for my Australian-based dog training business, which offers services locally and online to clients around the wo",
-      "posted_at": "2026-10-12T00:59:45Z",
-      "url": "https://www.freelancer.com/projects/40762834",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40762713,
-      "title": "SaaS Document Automation Platform Development",
-      "summary": "Executive Summary Jack Norman is seeking the design and development of a scalable, cloud-based Document Automation SaaS platform capable of generating professional business documents from reusable templates and structured data inputs. The platform will automate the creation of Mi",
-      "posted_at": "2026-10-11T22:56:14Z",
-      "url": "https://www.freelancer.com/projects/40762713",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
       "id": 40762701,
       "title": "Cartoonish Bobblehead 3D Model",
       "summary": "I'm looking for a skilled 3D modeler to create a cartoonish bobblehead design. The theme is an axe chopping into a tree stump. Key Requirements: - The style should be cartoonish. - Use natural wood tones for coloring. - Emphasize the movement of the axe swing in the design. Ideal",
@@ -918,17 +1009,6 @@
       "source": "Freelancer",
       "matches": [
         "Blender"
-      ]
-    },
-    {
-      "id": 40762646,
-      "title": "CMSV6/CMSV9 Integration for GPS/AI Cameras",
-      "summary": "# CMSV6/CMSV9 Developer Needed — GPS Tracking & AI Camera Platform **Project Type:** Fixed Price **Budget:** $750–$1,500 USD **Estimated Timeline:** 10–20 business days **Company:** TrackNova Technologies (USA) ### Project Overview TrackNova Technologies is a US-based startup dev",
-      "posted_at": "2026-10-11T21:17:36Z",
-      "url": "https://www.freelancer.com/projects/40762646",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
       ]
     },
     {
@@ -943,39 +1023,6 @@
       ]
     },
     {
-      "id": 40761586,
-      "title": "WordPress Homepage and UI/UX Overhaul",
-      "summary": "I already have an existing WordPress website consisting of 5 pages. I am looking for an experienced WordPress developer or UI/UX designer to improve the homepage, fix existing design issues, and make the overall user experience more professional, modern, and user-friendly. The we",
-      "posted_at": "2026-10-11T17:38:47Z",
-      "url": "https://www.freelancer.com/projects/40761586",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40762384,
-      "title": "Design Fully Responsive \"IRONFIT\" Gym Website",
-      "summary": "Create a premium, modern, fully responsive gym website named **IRONFIT**. - Design: Premium black and dark background with bold red accents, stylish typography, smooth animations, and a professional fitness aesthetic. - Homepage: Large hero section with gym background, “BUILD YOU",
-      "posted_at": "2026-10-11T16:26:11Z",
-      "url": "https://www.freelancer.com/projects/40762384",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
-      "id": 40762256,
-      "title": "Real Estate Video Editing & Marketing",
-      "summary": "I run a young real-estate startup and I’m ready to turn our raw footage into lead-generating content. I need a creative partner who can edit what I shoot—whether that’s listing walk-throughs, neighborhood highlights, or quick client stories—into attention-grabbing pieces and then",
-      "posted_at": "2026-10-11T14:45:54Z",
-      "url": "https://www.freelancer.com/projects/40762256",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
-      ]
-    },
-    {
       "id": 40762242,
       "title": "Realistic AR-Ready Character Rig",
       "summary": "I need a fully realised, realistic 3D character that is ready for a real-time VR/AR experience. I will supply detailed reference sheets and turnarounds; your job is to translate them into a clean production-ready model, skin it, and set up the full ARKit blendshape library (all 5",
@@ -984,17 +1031,6 @@
       "source": "Freelancer",
       "matches": [
         "Blender"
-      ]
-    },
-    {
-      "id": 40762236,
-      "title": "Premium Animated Ads for Digital Agency",
-      "summary": "**Motion Designer Needed – Premium Animated Video Ads for Digital Agency** We’re looking for an experienced motion designer to create professional video ads for Low Cost Digital, an Irish digital agency. Each ad will be approximately **23 seconds long**. We will provide wording, ",
-      "posted_at": "2026-10-11T14:31:53Z",
-      "url": "https://www.freelancer.com/projects/40762236",
-      "source": "Freelancer",
-      "matches": [
-        "branding"
       ]
     },
     {
@@ -1080,39 +1116,6 @@
       "summary": "I need a photorealistic exterior 3D rendering that convincingly communicates the design intent and material palette of my upcoming project. The brief is strictly architectural visualization, focused only on the outside of the building—no interior shots at this stage. Scope • Tran",
       "posted_at": "2026-10-10T19:17:09Z",
       "url": "https://www.freelancer.com/projects/40761147",
-      "source": "Freelancer",
-      "matches": [
-        "Blender"
-      ]
-    },
-    {
-      "id": 40761045,
-      "title": "SaeliAnima / SAËLI — Modular Animated AI Character Embodiment",
-      "summary": "SAËLI is a personal, evolving AI with an emotionally intelligent conversational identity. This request covers only his animated visual embodiment. SaeliAnima is the client account name. # SAËLI — Complete Modular Real-Time CGI Character ## About the client Stephane P. is developi",
-      "posted_at": "2026-10-10T17:48:19Z",
-      "url": "https://www.freelancer.com/projects/40761045",
-      "source": "Freelancer",
-      "matches": [
-        "Blender"
-      ]
-    },
-    {
-      "id": 40760986,
-      "title": "Government Building 3D Model",
-      "summary": "I need a detailed 3D model of a government building created in Blender. The model should capture the grandeur and authority typically associated with government architecture. Key requirements: - Design a classical-style government building - Provide intricate details and textures",
-      "posted_at": "2026-10-10T16:40:36Z",
-      "url": "https://www.freelancer.com/projects/40760986",
-      "source": "Freelancer",
-      "matches": [
-        "Blender"
-      ]
-    },
-    {
-      "id": 40760524,
-      "title": "2-Minute 3D AI Video",
-      "summary": "I need a two-minute entertainment piece that blends AI-driven creativity with polished 3D animation. I’m coming to you without a script, so the first step will be for you to craft a concise, engaging storyline that can be fully told in roughly 120 seconds. Once the script is appr",
-      "posted_at": "2026-10-10T09:16:42Z",
-      "url": "https://www.freelancer.com/projects/40760524",
       "source": "Freelancer",
       "matches": [
         "Blender"
